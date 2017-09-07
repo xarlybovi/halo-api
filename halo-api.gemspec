@@ -32,7 +32,6 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_runtime_dependency 'httparty', '~> 0.15.6'
-  spec.add_runtime_dependency 'addressable', '~> 2.5', '>= 2.5.2'
 
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 12.0'

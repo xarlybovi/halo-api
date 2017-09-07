@@ -1,7 +1,6 @@
 require 'halo-api/version'
 require 'halo-api/api_response'
 require 'httparty'
-require 'addressable/uri'
 
 require 'halo-api/games/halo5/metadata'
 require 'halo-api/games/halo5/profile'

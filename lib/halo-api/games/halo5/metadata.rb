@@ -1,5 +1,3 @@
-require 'uri'
-
 module Halo
   module Halo5
     class Metadata < Halo::APIResponse
