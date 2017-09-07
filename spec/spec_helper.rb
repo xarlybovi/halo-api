@@ -1,7 +1,9 @@
 require 'bundler/setup'
+require 'coveralls'
+require 'dotenv'
 require 'halo-api'
 
-require 'dotenv'
+Coveralls.wear!
 
 Dotenv.load
 
