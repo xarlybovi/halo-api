@@ -6,9 +6,9 @@ module Halo
     def initialize(options = {})
       @data           = []
       @client         = options[:client]
+      @endpoint       = options[:client].endpoint
     end
 
-    # TODO: retrieve all items from paged data
     def get_data(path, options)
       return if @client.nil?
       response = @client.get(path, options)

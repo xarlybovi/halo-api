@@ -39,4 +39,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
   spec.add_development_dependency 'rubocop', '~> 0.49.1'
   spec.add_development_dependency 'coveralls', '~> 0.8.21'
+  spec.add_development_dependency 'pry', '~> 0.10.3'
 end
