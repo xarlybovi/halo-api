@@ -8,6 +8,7 @@ module Halo
       @client         = options[:client]
     end
 
+    # TODO: retrieve all items from paged data
     def get_data(path, options)
       return if @client.nil?
       response = @client.get(path, options)
