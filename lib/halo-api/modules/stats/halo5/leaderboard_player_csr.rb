@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class LeaderboardPlayerCsr < Halo::APIResponse
+      class LeaderboardPlayerCsr < APIResponse
 
         def initialize(options = {})
           super(options)

@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Weapons < Halo::APIResponse
+      class Weapons < APIResponse
 
         def initialize(options = {})
           super(options)

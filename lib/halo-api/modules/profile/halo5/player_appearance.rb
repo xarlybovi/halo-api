@@ -1,7 +1,7 @@
 module Halo
   module Profile
     module Halo5
-      class PlayerAppearance < Halo::APIResponse
+      class PlayerAppearance < APIResponse
 
         def initialize(options = {})
           super(options)

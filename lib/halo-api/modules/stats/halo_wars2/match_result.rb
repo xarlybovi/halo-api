@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module HaloWars2
-      class MatchResult < Halo::APIResponse
+      class MatchResult < APIResponse
 
         def initialize(options = {})
           super(options)

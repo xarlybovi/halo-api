@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Medals < Halo::APIResponse
+      class Medals < APIResponse
 
         def initialize(options = {})
           super(options)

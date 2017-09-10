@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class Maps < Halo::APIResponse
+      class Maps < APIResponse
 
         def initialize(options = {})
           super(options)

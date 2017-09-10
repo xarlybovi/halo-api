@@ -12,7 +12,7 @@ require 'halo-api/modules/stats/halo_wars2/player_xp'
 
 
 module Halo
-  module Stats
+  module Clients
 
     # Halo Wars 2 Stats Client
     class HaloWars2StatsClient < Client

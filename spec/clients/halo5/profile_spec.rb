@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'pry'
 
 
-describe Halo::Profile::Halo5ProfileClient do
+describe Halo::Clients::Halo5ProfileClient do
 
   before(:all) do
     Halo.configure do |config|

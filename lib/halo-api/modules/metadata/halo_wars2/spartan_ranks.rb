@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class SpartanRanks < Halo::APIResponse
+      class SpartanRanks < APIResponse
 
         def initialize(options = {})
           super(options)

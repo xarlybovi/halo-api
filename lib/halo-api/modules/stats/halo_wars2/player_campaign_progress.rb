@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module HaloWars2
-      class PlayerCampaignProgress < Halo::APIResponse
+      class PlayerCampaignProgress < APIResponse
 
         def initialize(options = {})
           super(options)

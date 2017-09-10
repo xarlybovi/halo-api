@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class Difficulties < Halo::APIResponse
+      class Difficulties < APIResponse
 
         def initialize(options = {})
           super(options)

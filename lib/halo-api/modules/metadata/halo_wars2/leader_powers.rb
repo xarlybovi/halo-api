@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class LeaderPowers < Halo::APIResponse
+      class LeaderPowers < APIResponse
 
         def initialize(options = {})
           super(options)

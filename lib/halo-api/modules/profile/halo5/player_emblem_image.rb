@@ -1,7 +1,7 @@
 module Halo
   module Profile
     module Halo5
-      class PlayerEmblemImage < Halo::APIResponse
+      class PlayerEmblemImage < APIResponse
 
         def initialize(options = {})
           super(options)

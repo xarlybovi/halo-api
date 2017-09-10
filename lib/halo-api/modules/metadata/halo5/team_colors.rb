@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class TeamColors < Halo::APIResponse
+      class TeamColors < APIResponse
 
         def initialize(options = {})
           super(options)

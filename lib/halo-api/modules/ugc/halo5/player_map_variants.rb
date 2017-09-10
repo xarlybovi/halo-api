@@ -1,7 +1,7 @@
 module Halo
   module Ugc
     module Halo5
-      class PlayerMapVariants < Halo::APIResponse
+      class PlayerMapVariants < APIResponse
 
         def initialize(options = {})
           super(options)

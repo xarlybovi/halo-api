@@ -7,9 +7,9 @@ require 'halo-api/modules/ugc/halo5/player_map_variants'
 
 
 module Halo
-  module Ugc
+  module Clients
 
-    # Halo 5 Ugc endpoints
+    # Halo 5 Ugc Client
     class Halo5UgcClient < Client
 
       def initialize(options = {})

@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Playlist < Halo::APIResponse
+      class Playlist < APIResponse
 
         def initialize(options = {})
           super(options)

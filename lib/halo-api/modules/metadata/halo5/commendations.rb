@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Commendations < Halo::APIResponse
+      class Commendations < APIResponse
 
         def initialize(options = {})
           super(options)

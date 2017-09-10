@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Enemies < Halo::APIResponse
+      class Enemies < APIResponse
 
         def initialize(options = {})
           super(options)

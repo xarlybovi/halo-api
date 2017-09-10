@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Requisition < Halo::APIResponse
+      class Requisition < APIResponse
 
         def initialize(options = {})
           super(options)

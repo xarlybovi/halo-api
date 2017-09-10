@@ -23,9 +23,9 @@ require 'halo-api/modules/metadata/halo5/weapons'
 
 
 module Halo
-  module Metadata
+  module Clients
 
-    # Halo 5 Metadata endpoints
+    # Halo 5 Metadata Client
     class Halo5MetadataClient < Client
 
       def initialize(options = {})

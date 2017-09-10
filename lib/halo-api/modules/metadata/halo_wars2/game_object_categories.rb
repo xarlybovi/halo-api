@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class GameObjectCategories < Halo::APIResponse
+      class GameObjectCategories < APIResponse
 
         def initialize(options = {})
           super(options)

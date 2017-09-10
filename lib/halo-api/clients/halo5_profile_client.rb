@@ -6,9 +6,9 @@ require 'halo-api/modules/profile/halo5/player_spartan_image'
 
 
 module Halo
-  module Profile
+  module Clients
 
-    # Halo 5 Profile endpoints
+    # Halo 5 Profile Client
     class Halo5ProfileClient < Client
 
       def initialize(options = {})

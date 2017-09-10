@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class CampaignMissions < Halo::APIResponse
+      class CampaignMissions < APIResponse
 
         def initialize(options = {})
           super(options)

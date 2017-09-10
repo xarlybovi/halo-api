@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'pry'
 
 
-describe Halo::Stats::HaloWars2StatsClient do
+describe Halo::Clients::HaloWars2StatsClient do
 
   before(:all) do
     Halo.configure do |config|

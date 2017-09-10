@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class PcPlayerMatchHistory < Halo::APIResponse
+      class PcPlayerMatchHistory < APIResponse
 
         def initialize(options = {})
           super(options)

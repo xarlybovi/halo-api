@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Skulls < Halo::APIResponse
+      class Skulls < APIResponse
 
         def initialize(options = {})
           super(options)

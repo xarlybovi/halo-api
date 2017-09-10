@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class Seasons < Halo::APIResponse
+      class Seasons < APIResponse
 
         def initialize(options = {})
           super(options)

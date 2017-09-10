@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module HaloWars2
-      class PlayerSeasonStatsSummary < Halo::APIResponse
+      class PlayerSeasonStatsSummary < APIResponse
 
         def initialize(options = {})
           super(options)

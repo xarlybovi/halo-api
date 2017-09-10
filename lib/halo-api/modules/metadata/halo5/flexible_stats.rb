@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class FlexibleStats < Halo::APIResponse
+      class FlexibleStats < APIResponse
 
         def initialize(options = {})
           super(options)

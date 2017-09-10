@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class Packs < Halo::APIResponse
+      class Packs < APIResponse
 
         def initialize(options = {})
           super(options)

@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Impulses < Halo::APIResponse
+      class Impulses < APIResponse
 
         def initialize(options = {})
           super(options)

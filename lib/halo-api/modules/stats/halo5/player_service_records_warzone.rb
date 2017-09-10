@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class PlayerServiceRecordsWarzone < Halo::APIResponse
+      class PlayerServiceRecordsWarzone < APIResponse
 
         def initialize(options = {})
           super(options)

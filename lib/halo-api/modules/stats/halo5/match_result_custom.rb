@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class MatchResultCustom < Halo::APIResponse
+      class MatchResultCustom < APIResponse
 
         def initialize(options = {})
           super(options)

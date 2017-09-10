@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class PcPlayerServiceRecordsCustom < Halo::APIResponse
+      class PcPlayerServiceRecordsCustom < APIResponse
 
         def initialize(options = {})
           super(options)

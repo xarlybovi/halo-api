@@ -2,7 +2,7 @@ require 'spec_helper'
 require 'pry'
 
 
-describe Halo::Metadata::Halo5MetadataClient do
+describe Halo::Clients::Halo5MetadataClient do
 
   before(:all) do
     Halo.configure do |config|

@@ -20,9 +20,9 @@ require 'halo-api/modules/stats/halo5/pc_player_service_records_custom'
 
 
 module Halo
-  module Stats
+  module Clients
 
-    # Halo 5 Stats endpoints
+    # Halo 5 Stats Client
     class Halo5StatsClient < Client
 
       def initialize(options = {})

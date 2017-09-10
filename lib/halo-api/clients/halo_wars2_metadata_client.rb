@@ -19,13 +19,13 @@ require 'halo-api/modules/metadata/halo_wars2/techs'
 
 
 module Halo
-  module Metadata
+  module Clients
 
     # Halo Wars 2 Metadata Client
     class HaloWars2MetadataClient < Client
 
       def initialize(options = {})
-        client_settings = {endpoint: '/metadata/hw2'}
+        client_settings = { endpoint: '/metadata/hw2' }
         client_settings = client_settings.merge(options)
 
         super(client_settings)

@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class MapVariant < Halo::APIResponse
+      class MapVariant < APIResponse
 
         def initialize(options = {})
           super(options)

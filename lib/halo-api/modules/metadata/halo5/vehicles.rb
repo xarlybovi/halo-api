@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class Vehicles < Halo::APIResponse
+      class Vehicles < APIResponse
 
         def initialize(options = {})
           super(options)

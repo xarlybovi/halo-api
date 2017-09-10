@@ -1,7 +1,7 @@
 require 'spec_helper'
 require 'pry'
 
-describe Halo::Ugc::Halo5UgcClient do
+describe Halo::Clients::Halo5UgcClient do
 
   before(:all) do
     Halo.configure do |config|

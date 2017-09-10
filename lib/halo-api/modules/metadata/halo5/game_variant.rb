@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class GameVariant < Halo::APIResponse
+      class GameVariant < APIResponse
 
         def initialize(options = {})
           super(options)

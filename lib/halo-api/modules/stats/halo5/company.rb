@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class Company < Halo::APIResponse
+      class Company < APIResponse
 
         def initialize(options = {})
           super(options)

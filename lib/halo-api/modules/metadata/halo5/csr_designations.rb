@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module Halo5
-      class CsrDesignations < Halo::APIResponse
+      class CsrDesignations < APIResponse
 
         def initialize(options = {})
           super(options)

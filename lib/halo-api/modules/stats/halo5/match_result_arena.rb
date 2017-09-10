@@ -1,7 +1,7 @@
 module Halo
   module Stats
     module Halo5
-      class MatchResultArena < Halo::APIResponse
+      class MatchResultArena < APIResponse
 
         def initialize(options = {})
           super(options)

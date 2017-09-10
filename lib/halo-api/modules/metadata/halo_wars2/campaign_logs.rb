@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class CampaignLogs < Halo::APIResponse
+      class CampaignLogs < APIResponse
 
         def initialize(options = {})
           super(options)

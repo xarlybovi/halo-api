@@ -1,7 +1,7 @@
 module Halo
   module Metadata
     module HaloWars2
-      class CardKeywords < Halo::APIResponse
+      class CardKeywords < APIResponse
 
         def initialize(options = {})
           super(options)
