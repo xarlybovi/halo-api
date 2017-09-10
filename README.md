@@ -43,7 +43,8 @@ missions = metadata.campaign_missions.all
 ## TODO
 
 - [x] Halo 5 endpoints
-- [ ] Halo Wars 2 endpoints
+- [x] Halo Wars 2 endpoints
+- [ ] Documentation
 
 ## Contributing
 
