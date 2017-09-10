@@ -33,8 +33,8 @@ module Halo
     def make_request(verb, path, params = {})
       options = {}
       headers = {
-        'Ocp-Apim-Subscription-Key': @api_key,
-        'Accept-Language': @region
+        'Ocp-Apim-Subscription-Key' => @api_key,
+        'Accept-Language' => @region
       }
 
       url = "https://www.haloapi.com#{path}"

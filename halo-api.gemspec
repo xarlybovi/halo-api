@@ -14,13 +14,16 @@ Gem::Specification.new do |spec|
   spec.description   = 'Wrapper for Halo Public API (BETA). https://developer.haloapi.com'
   spec.homepage      = 'https://github.com/xarlybovi/halo-api.git'
   spec.license       = 'MIT'
-  
+
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
     f.match(%r{^(test|spec|features)/})
   end
   spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
+
+  # This gem will work with 2.0.0 or greater
+  spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_runtime_dependency 'httparty', '~> 0.15.6'
 
@@ -31,4 +34,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.49.1'
   spec.add_development_dependency 'coveralls', '~> 0.8.21'
   spec.add_development_dependency 'pry', '~> 0.10.3'
+  spec.add_development_dependency 'wwtd', '~> 1.3'
 end
