@@ -1,11 +1,12 @@
 require 'bundler/setup'
 require 'coveralls'
 require 'dotenv'
+
 require 'halo-api'
 
 Coveralls.wear!
 
-Dotenv.load
+Dotenv.load('.env')
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

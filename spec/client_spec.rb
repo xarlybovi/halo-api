@@ -1,4 +1,3 @@
-require 'spec_helper'
 require 'pry'
 
 describe Halo::Client do

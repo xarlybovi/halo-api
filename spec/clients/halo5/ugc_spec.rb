@@ -1,4 +1,3 @@
-require 'spec_helper'
 require 'pry'
 
 describe Halo::Clients::Halo5UgcClient do
