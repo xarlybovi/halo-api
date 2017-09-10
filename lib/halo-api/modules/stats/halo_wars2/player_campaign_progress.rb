@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(player, options = {})
-          get_data("#{@endpoint}/players/#{player}/campaign-progress", options)
+          get_data("/players/#{player}/campaign-progress", options)
         end
 
       end

@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/spartan-ranks", options)
+          get_data('/spartan-ranks', options)
         end
 
       end

@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/leader-powers", options)
+          get_data('/leader-powers', options)
         end
 
       end

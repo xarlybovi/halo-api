@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(id, options = {})
-          get_data("#{@endpoint}/requisitions/#{id}", options)
+          get_data("/requisition-packs/#{id}", options)
         end
 
       end

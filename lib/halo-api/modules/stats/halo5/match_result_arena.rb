@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(match_id, options = {})
-          get_data("#{@endpoint}/arena/matches/#{match_id}", options)
+          get_data("/arena/matches/#{match_id}", options)
         end
 
       end

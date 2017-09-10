@@ -1,6 +1,7 @@
 require 'halo-api/version'
 require 'halo-api/api_response'
 require 'httparty'
+require 'addressable/uri'
 
 
 module Halo
@@ -19,11 +20,8 @@ module Halo
       Halo::Configuration::OPTIONS.each do |key|
         send("#{key}=", options[key])
       end
-    end
 
-    def endpoint
-      raise 'Invalid API Endpoint' if @endpoint.nil?
-      @endpoint
+      self.class.base_uri "https://www.haloapi.com#{@endpoint}"
     end
 
     def get(path, params = {})
@@ -37,12 +35,10 @@ module Halo
         'Accept-Language' => @region
       }
 
-      url = "https://www.haloapi.com#{path}"
-
       options[:headers] = headers unless headers.empty?
       options[:query]   = params unless params.empty?
 
-      self.class.send(verb, url, options)
+      self.class.send(verb, Addressable::URI.encode(path), options)
     end
 
 

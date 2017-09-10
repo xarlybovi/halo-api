@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/campaign-levels", options)
+          get_data('/campaign-levels', options)
         end
 
       end

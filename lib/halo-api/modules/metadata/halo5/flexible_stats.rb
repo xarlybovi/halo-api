@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/flexible-stats", options)
+          get_data('/flexible-stats', options)
         end
 
       end

@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/csr-designations", options)
+          get_data('/csr-designations', options)
         end
 
       end

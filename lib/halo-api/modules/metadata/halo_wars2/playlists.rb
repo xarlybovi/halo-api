@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/playlists", options)
+          get_data('/playlists', options)
         end
 
       end

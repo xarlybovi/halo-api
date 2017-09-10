@@ -15,6 +15,16 @@ describe Halo::Clients::Halo5ProfileClient do
   it { should respond_to(:player_emblem_image) }
   it { should respond_to(:player_spartan_image) }
 
+  # Request test
+  describe 'Player appearance' do
+    let(:result) { @client.player_appearance.find('xarly bovi') }
+
+    it 'returns the player appearance info' do
+      expect(result).to_not be_nil
+      expect(result).to have_key 'Gamertag'
+    end
+  end
+
   # binding.pry
 end
 

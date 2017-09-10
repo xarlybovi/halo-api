@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(players, options = {})
-          get_data("#{@endpoint}/servicerecords/custom", options.merge(players: players))
+          get_data('/servicerecords/custom', options.merge(players: players))
         end
 
       end

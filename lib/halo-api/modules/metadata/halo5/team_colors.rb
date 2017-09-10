@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/team-colors", options)
+          get_data('/team-colors', options)
         end
 
       end

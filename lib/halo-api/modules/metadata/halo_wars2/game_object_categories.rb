@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/game-object-categories", options)
+          get_data('/game-object-categories', options)
         end
 
       end

@@ -6,7 +6,6 @@ module Halo
     def initialize(options = {})
       @data           = []
       @client         = options[:client]
-      @endpoint       = options[:client].endpoint
     end
 
     def get_data(path, options)

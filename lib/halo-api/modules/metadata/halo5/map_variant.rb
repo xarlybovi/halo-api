@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(id, options = {})
-          get_data("#{@endpoint}/map-variants/#{id}", options)
+          get_data("/map-variants/#{id}", options)
         end
 
       end

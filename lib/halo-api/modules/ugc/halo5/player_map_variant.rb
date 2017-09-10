@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(player, variant, options = {})
-          get_data("#{@endpoint}/#{player}/mapvariants/#{variant}", options)
+          get_data("/#{player}/mapvariants/#{variant}", options)
         end
 
       end

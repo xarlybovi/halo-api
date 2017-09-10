@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(playlist_id, players, options = {})
-          get_data("#{@endpoint}/playlist/#{playlist_id}/rating", options.merge(players: players))
+          get_data("/playlist/#{playlist_id}/rating", options.merge(players: players))
         end
 
       end

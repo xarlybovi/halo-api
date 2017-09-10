@@ -26,6 +26,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.0.0'
 
   spec.add_runtime_dependency 'httparty', '~> 0.15.6'
+  spec.add_runtime_dependency 'addressable', '~> 2.5', '>= 2.5.2'
 
   spec.add_development_dependency 'bundler', '~> 1.15'
   spec.add_development_dependency 'rake', '~> 12.0'

@@ -8,7 +8,7 @@ module Halo
         end
 
         def all(options = {})
-          get_data("#{@endpoint}/difficulties", options)
+          get_data('/difficulties', options)
         end
 
       end

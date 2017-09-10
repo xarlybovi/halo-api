@@ -8,7 +8,7 @@ module Halo
         end
 
         def find(season_id, playlist_id, options = {})
-          get_data("#{@endpoint}/player-leaderboards/csr/#{season_id}/#{playlist_id}", options)
+          get_data("/player-leaderboards/csr/#{season_id}/#{playlist_id}", options)
         end
 
       end
