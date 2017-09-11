@@ -25,7 +25,7 @@ Or install it yourself as:
 
 ## Usage
 
-Basic example:
+Basic examples:
 ````ruby
 Halo.configure do |config|
   config.api_key = ENV['HALO_API_KEY']
@@ -34,9 +34,12 @@ end
 ````
 
 ````ruby
-metadata = Halo.h5_metadata
+halo5_client = Halo.halo5
+halo_wars2_client = Halo.halo_wars2
 
-missions = metadata.campaign_missions.all
+h5_missions = halo5_client.metadata.campaign_missions
+h5_player_appearance = halo5_client.profile(player: 'xarly bovi').player_appearance
+h2w_campaign_levels = halo_wars2_client.metadata.campaign_levels
 
 ````
 
