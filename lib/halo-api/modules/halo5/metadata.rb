@@ -60,7 +60,7 @@ module Halo
         get_data("#{@endpoint}/requisitions/#{id}", options)
       end
 
-      def requisition_pack(options = {})
+      def requisition_pack(id, options = {})
         get_data("#{@endpoint}/requisition-packs/#{id}", options)
       end
 

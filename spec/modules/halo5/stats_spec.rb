@@ -29,14 +29,15 @@ describe Halo::Halo5::Stats do
   it { should respond_to(:pc_player_match_history) }
   it { should respond_to(:pc_psr_custom) }
 
-  describe 'Stats sample request' do
-    let(:result) { @client.stats.player_match_history('xarly bovi') }
+  # describe 'Stats sample request' do
+  #   let(:result) { @client.stats.player_match_history('xarly bovi') }
+  #
+  #   it 'returns the player match history' do
+  #     expect(result).to_not be_nil
+  #     expect(result).to have_key 'Results'
+  #   end
+  # end
 
-    it 'returns the player match history' do
-      expect(result).to_not be_nil
-      expect(result).to have_key 'Results'
-    end
-  end
   # binding.pry
 end
 

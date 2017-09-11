@@ -21,7 +21,7 @@ module Halo
       end
 
       def player_campaign_progress(player, options = {})
-        get_data("#{@endpoint}players/#{player}/campaign-progress", options)
+        get_data("#{@endpoint}/players/#{player}/campaign-progress", options)
       end
 
       def player_match_history(player, options = {})

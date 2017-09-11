@@ -10,7 +10,7 @@ module Halo
       end
 
       def player_game_variant(variant, options = {})
-        get_data("#{@endpoint}gamevariants/#{variant}", options)
+        get_data("#{@endpoint}/gamevariants/#{variant}", options)
       end
 
       def player_game_variants(options = {})

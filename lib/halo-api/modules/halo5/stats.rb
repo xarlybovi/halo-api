@@ -16,7 +16,7 @@ module Halo
       end
 
       def leaderboard_player_csr(season_id, playlist_id, options = {})
-        get_data("#{@endpoint}player-leaderboards/csr/#{season_id}/#{playlist_id}", options)
+        get_data("#{@endpoint}/player-leaderboards/csr/#{season_id}/#{playlist_id}", options)
       end
 
       def match_events(match_id, options = {})
