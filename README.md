@@ -47,6 +47,10 @@ h2w_campaign_levels = halo_wars2_client.metadata.campaign_levels
 
 - [x] Halo 5 endpoints
 - [x] Halo Wars 2 endpoints
+- [ ] Redis response caching support
+- [ ] Request rate limiter
+- [ ] Custom query builder
+- [ ] Paged requests
 - [ ] Documentation
 
 ## Contributing
