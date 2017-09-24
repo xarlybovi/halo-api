@@ -11,9 +11,9 @@ module Halo
     attr_accessor(*Configuration::OPTIONS)
 
     def initialize(options = {})
-      @api_key = options[:api_key]
-      @region = options[:region]
-      @endpoint = options[:endpoint]
+      @api_key = options.delete(:api_key)
+      @region = options.delete(:region)
+      endpoint = options.delete(:endpoint)
 
       options = Halo.options.merge(options)
 
@@ -21,7 +21,7 @@ module Halo
         send("#{key}=", options[key])
       end
 
-      self.class.base_uri "https://www.haloapi.com#{@endpoint}"
+      self.class.base_uri "https://www.haloapi.com#{endpoint}"
     end
 
     def get(path, params = {})
