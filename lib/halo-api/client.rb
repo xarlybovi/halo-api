@@ -1,7 +1,8 @@
 require 'halo-api/version'
 require 'halo-api/api_response'
-require 'httparty'
-require 'addressable/uri'
+require 'halo-api/configuration'
+
+require 'redis'
 
 
 module Halo
@@ -11,34 +12,35 @@ module Halo
     attr_accessor(*Configuration::OPTIONS)
 
     def initialize(options = {})
-      @api_key = options.delete(:api_key)
-      @region = options.delete(:region)
-      endpoint = options.delete(:endpoint)
-
       options = Halo.options.merge(options)
 
       Halo::Configuration::OPTIONS.each do |key|
         send("#{key}=", options[key])
       end
 
-      self.class.base_uri "https://www.haloapi.com#{endpoint}"
+      set_up_cache(options.delete(:redis), options.delete(:ttl))
     end
 
-    def get(path, params = {})
-      make_request :get, path, params
+    def set_up_cache(redis_url, ttl)
+      return @cached = false unless redis_url
+      @ttl = ttl || Halo::Configuration::DEFAULT_TTL
+      @cached = true
+      @redis = Redis.new url: redis_url
     end
 
-    def make_request(verb, path, params = {})
-      options = {}
-      headers = {
-        'Ocp-Apim-Subscription-Key' => @api_key,
-        'Accept-Language' => @region
+    # Returns an options hash with cache keys
+    # @return [Hash]
+    def cache_store
+      {
+        redis: @redis,
+        ttl: @ttl,
+        cached: @cached
       }
+    end
 
-      options[:headers] = headers unless headers.empty?
-      options[:query]   = params unless params.empty?
-
-      self.class.send(verb, Addressable::URI.encode(path), options)
+    # @return [Boolean] true if the request should be cached
+    def cached?
+      cache_store[:cached]
     end
 
 

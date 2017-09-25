@@ -1,8 +1,6 @@
-require 'pry'
-
 describe Halo::Halo5::Ugc do
 
-  before(:all) do
+  before(:each) do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
       config.region  = ENV['HALO_REGION']
@@ -10,10 +8,10 @@ describe Halo::Halo5::Ugc do
     @client = Halo.halo5
   end
 
-  it { should respond_to(:player_game_variant) }
-  it { should respond_to(:player_game_variants) }
-  it { should respond_to(:player_map_variant) }
-  it { should respond_to(:player_map_variants) }
+  # it { should respond_to(:player_game_variant) }
+  # it { should respond_to(:player_game_variants) }
+  # it { should respond_to(:player_map_variant) }
+  # it { should respond_to(:player_map_variants) }
 
   # describe 'Ugc sample request' do
   #   let(:result) { @client.ugc(player: 'xarly bovi').player_game_variants }

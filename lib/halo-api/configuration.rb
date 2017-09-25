@@ -1,10 +1,12 @@
 module Halo
   module Configuration
 
-    OPTIONS = %i[api_key region].freeze
+    OPTIONS = %i[api_key region redis ttl].freeze
 
     DEFAULT_API_KEY = nil
-    DEFAULT_REGION = :en
+    DEFAULT_REGION = 'en'
+    DEFAULT_REDIS = 'redis://localhost:6379'
+    DEFAULT_TTL = 1800
 
     attr_accessor(*OPTIONS)
 

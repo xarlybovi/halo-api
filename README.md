@@ -25,11 +25,19 @@ Or install it yourself as:
 
 ## Usage
 
-Basic examples:
+Basic configuration:
+````ruby
+Halo.configure do |config|
+  config.api_key = ENV['HALO_API_KEY']
+end
+````
+
+With redis and region (optional parameters)
 ````ruby
 Halo.configure do |config|
   config.api_key = ENV['HALO_API_KEY']
   config.region  = ENV['HALO_REGION']
+  config.redis   = ENV['HALO_REDIS']
 end
 ````
 
@@ -47,7 +55,7 @@ h2w_campaign_levels = halo_wars2_client.metadata.campaign_levels
 
 - [x] Halo 5 endpoints
 - [x] Halo Wars 2 endpoints
-- [ ] Redis response caching support
+- [x] Redis response caching support
 - [ ] Request rate limiter
 - [ ] Custom query builder
 - [ ] Paged requests

@@ -1,9 +1,6 @@
-require 'pry'
-
-
 describe Halo::Halo5::Profile do
 
-  before(:all) do
+  before(:each) do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
       config.region  = ENV['HALO_REGION']
@@ -11,9 +8,9 @@ describe Halo::Halo5::Profile do
     @client = Halo.halo5
   end
 
-  it { should respond_to(:player_appearance) }
-  it { should respond_to(:player_emblem_image) }
-  it { should respond_to(:player_spartan_image) }
+  # it { should respond_to(:player_appearance) }
+  # it { should respond_to(:player_emblem_image) }
+  # it { should respond_to(:player_spartan_image) }
 
   describe 'Profile sample request' do
     let(:result) { @client.profile(player: 'xarly bovi').player_appearance }

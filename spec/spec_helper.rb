@@ -1,6 +1,7 @@
 require 'bundler/setup'
 require 'coveralls'
 require 'dotenv'
+require 'pry'
 
 require 'halo-api'
 
@@ -18,4 +19,6 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
+
+  # config.order = :random
 end
