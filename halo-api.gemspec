@@ -29,12 +29,12 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'addressable', '~> 2.5', '>= 2.5.2'
   spec.add_runtime_dependency 'redis', '~> 4.0'
 
-  spec.add_development_dependency 'bundler', '~> 1.15.4'
-  spec.add_development_dependency 'rake', '~> 12.1.0'
-  spec.add_development_dependency 'rspec', '~> 3.6.0'
+  spec.add_development_dependency 'bundler', '~> 1.15'
+  spec.add_development_dependency 'rake', '~> 12.1'
+  spec.add_development_dependency 'rspec', '~> 3.6'
   spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
-  spec.add_development_dependency 'rubocop', '~> 0.50.0'
+  spec.add_development_dependency 'rubocop', '~> 0.50'
   spec.add_development_dependency 'coveralls', '~> 0.8.21'
-  spec.add_development_dependency 'pry', '~> 0.11.1'
-  spec.add_development_dependency 'wwtd', '~> 1.3.0'
+  spec.add_development_dependency 'pry', '~> 0.11'
+  spec.add_development_dependency 'wwtd', '~> 1.3'
 end
