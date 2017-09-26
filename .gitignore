@@ -10,5 +10,10 @@
 
 # rspec failure tracking
 .rspec_status
+
+# Environment
 .env
-/.idea
+
+# rvm
+.ruby-gemset
+.ruby-version
