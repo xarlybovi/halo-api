@@ -1,13 +1,5 @@
-require 'halo-api/version'
-require 'halo-api/api_response'
-require 'halo-api/configuration'
-
-require 'redis'
-
-
 module Halo
   class Client
-    include HTTParty
 
     attr_accessor(*Configuration::OPTIONS)
 
