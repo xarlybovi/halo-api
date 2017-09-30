@@ -33,8 +33,8 @@ module Halo
     def perform_uncached_request(verb, path, params = {})
       options = {}
       headers = {
-        'Ocp-Apim-Subscription-Key': @api_key,
-        'Accept-Language': @region
+        'Ocp-Apim-Subscription-Key' => @api_key,
+        'Accept-Language' => @region
       }
 
       options[:headers] = headers unless headers.empty?
