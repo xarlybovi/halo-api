@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe Halo::Clients::Halo5Client do
   it { should respond_to(:metadata) }
   it { should respond_to(:profile) }

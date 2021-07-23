@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'halo-api/client'
 
 require 'halo-api/modules/halo5/metadata'

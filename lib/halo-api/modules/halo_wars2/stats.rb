@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Halo
   module HaloWars2
     class Stats < APIResponse

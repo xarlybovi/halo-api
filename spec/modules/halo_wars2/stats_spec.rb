@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe Halo::HaloWars2::Stats do
 
   before(:each) do

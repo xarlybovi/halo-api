@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe Halo::HaloWars2::Metadata do
 
   before(:each) do

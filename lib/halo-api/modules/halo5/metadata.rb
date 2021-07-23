@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Halo
   module Halo5
     class Metadata < APIResponse

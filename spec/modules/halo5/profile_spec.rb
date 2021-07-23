@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe Halo::Halo5::Profile do
 
   before(:each) do

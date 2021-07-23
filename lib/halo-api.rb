@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'halo-api/version'
 require 'halo-api/configuration'
 require 'halo-api/client'

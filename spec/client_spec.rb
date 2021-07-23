@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 describe Halo::Client do
 
   describe 'configuration' do
