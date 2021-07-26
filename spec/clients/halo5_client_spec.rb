@@ -6,5 +6,3 @@ describe Halo::Clients::Halo5Client do
   it { should respond_to(:stats) }
   it { should respond_to(:ugc) }
 end
-
-

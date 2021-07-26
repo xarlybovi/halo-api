@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 describe Halo::Client do
-
   describe 'configuration' do
     before(:each) do
       Halo.configure do |config|
@@ -69,5 +68,4 @@ describe Halo::Client do
       expect(subject.instance_variable_get(:@redis)).to be_a(Redis)
     end
   end
-
 end

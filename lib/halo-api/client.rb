@@ -2,7 +2,6 @@
 
 module Halo
   class Client
-
     attr_accessor(*Configuration::OPTIONS)
 
     def initialize(options = {})
@@ -17,6 +16,7 @@ module Halo
 
     def set_up_cache(redis_url, ttl)
       return @cached = false unless redis_url
+
       @ttl = ttl || Halo::Configuration::DEFAULT_TTL
       @cached = true
       @redis = Redis.new url: redis_url
@@ -36,7 +36,6 @@ module Halo
     def cached?
       cache_store[:cached]
     end
-
 
     private
 

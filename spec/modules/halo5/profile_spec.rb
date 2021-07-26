@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 describe Halo::Halo5::Profile do
-
   before(:each) do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
@@ -25,5 +24,3 @@ describe Halo::Halo5::Profile do
 
   # binding.pry
 end
-
-

@@ -5,13 +5,10 @@ require 'halo-api/client'
 require 'halo-api/modules/halo_wars2/metadata'
 require 'halo-api/modules/halo_wars2/stats'
 
-
 module Halo
   module Clients
-
     # Halo Wars 2 Client
     class HaloWars2Client < Client
-
       def initialize(options = {})
         super(options)
       end
@@ -23,7 +20,6 @@ module Halo
       def stats(options = {})
         merge_options_and_return_obj(options, Halo::HaloWars2::Stats)
       end
-
     end
   end
 end

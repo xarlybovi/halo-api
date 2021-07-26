@@ -7,13 +7,10 @@ require 'halo-api/modules/halo5/profile'
 require 'halo-api/modules/halo5/stats'
 require 'halo-api/modules/halo5/ugc'
 
-
 module Halo
   module Clients
-
     # Halo 5 Client
     class Halo5Client < Client
-
       def initialize(options = {})
         super(options)
       end
@@ -33,7 +30,6 @@ module Halo
       def ugc(options = {})
         merge_options_and_return_obj(options, Halo::Halo5::Ugc)
       end
-
     end
   end
 end

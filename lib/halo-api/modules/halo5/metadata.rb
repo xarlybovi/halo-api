@@ -3,7 +3,6 @@
 module Halo
   module Halo5
     class Metadata < APIResponse
-
       def initialize(options = {})
         @endpoint = '/metadata/h5/metadata'
 
@@ -89,7 +88,6 @@ module Halo
       def weapons(options = {})
         get_data("#{@endpoint}/weapons", options)
       end
-
     end
   end
 end
