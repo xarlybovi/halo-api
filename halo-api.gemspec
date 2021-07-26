@@ -22,19 +22,19 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  # This gem will work with 2.2.2 or greater
-  spec.required_ruby_version = '>= 2.2.2'
+  # This gem will work with 2.6.8 or greater
+  spec.required_ruby_version = '>= 2.6.8'
 
-  spec.add_runtime_dependency 'addressable', '~> 2.5', '>= 2.5.2'
-  spec.add_runtime_dependency 'httparty', '~> 0.15.6'
-  spec.add_runtime_dependency 'redis', '~> 4.0'
+  spec.add_runtime_dependency 'addressable', '~> 2.8', '>= 2.8.0'
+  spec.add_runtime_dependency 'httparty', '~> 0.18.1'
+  spec.add_runtime_dependency 'redis', '~> 4.3'
 
-  spec.add_development_dependency 'bundler', '~> 1.15'
+  spec.add_development_dependency 'bundler', '~> 2.2.24'
   spec.add_development_dependency 'coveralls', '~> 0.8.21'
   spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
   spec.add_development_dependency 'pry', '~> 0.11'
-  spec.add_development_dependency 'rake', '~> 12.1'
-  spec.add_development_dependency 'rspec', '~> 3.6'
-  spec.add_development_dependency 'rubocop', '~> 0.50'
-  spec.add_development_dependency 'wwtd', '~> 1.3'
+  spec.add_development_dependency 'rake', '~> 13.0.6'
+  spec.add_development_dependency 'rspec', '~> 3.10.0'
+  spec.add_development_dependency 'rubocop', '~> 1.18'
+  spec.add_development_dependency 'wwtd', '~> 1.4.1'
 end
