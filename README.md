@@ -1,6 +1,5 @@
 # HaloAPI
 [![Gem Version](https://badge.fury.io/rb/halo-api.svg)](https://badge.fury.io/rb/halo-api)
-[![Dependency Status](https://gemnasium.com/badges/github.com/xarlybovi/halo-api.svg)](https://gemnasium.com/github.com/xarlybovi/halo-api)
 [![Code Climate](https://codeclimate.com/github/xarlybovi/halo-api.png)](https://codeclimate.com/github/xarlybovi/halo-api)
 [![Build Status](https://travis-ci.org/xarlybovi/halo-api.svg?branch=master)](https://travis-ci.org/xarlybovi/halo-api)
 [![Coverage Status](https://coveralls.io/repos/github/xarlybovi/halo-api/badge.svg?branch=master)](https://coveralls.io/github/xarlybovi/halo-api?branch=master)
