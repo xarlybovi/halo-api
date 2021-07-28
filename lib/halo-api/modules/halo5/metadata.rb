@@ -17,6 +17,10 @@ module Halo
         get_data("#{@endpoint}/commendations", options)
       end
 
+      def company_commendations(options = {})
+        get_data("#{@endpoint}/company-commendations", options)
+      end
+
       def csr_designations(options = {})
         get_data("#{@endpoint}/csr-designations", options)
       end
