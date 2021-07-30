@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.describe Halo do
-  it 'has a version number' do
-    expect(Halo::VERSION).not_to be nil
+  it 'returns a proper version' do
+    expect(Halo::VERSION).to be_a(String)
   end
 end

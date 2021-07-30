@@ -1,15 +1,21 @@
 # frozen_string_literal: true
 
-require 'bundler/setup'
+require 'simplecov'
 require 'coveralls'
+require 'bundler/setup'
 require 'dotenv'
 require 'pry'
 
-require 'halo-api'
-
-Coveralls.wear!
+SimpleCov.formatter = Coveralls::SimpleCov::Formatter
+SimpleCov.start do
+  track_files '{lib}/**/*.rb'
+  add_filter 'spec/'
+  add_filter 'lib/halo-api/version'
+end
 
 Dotenv.load('.env')
+
+require 'halo-api'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
