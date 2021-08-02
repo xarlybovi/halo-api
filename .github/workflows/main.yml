@@ -32,9 +32,3 @@ jobs:
           HALO_REDIS: ${{ secrets.HALO_REDIS }}
           HALO_TTL: ${{ secrets.HALO_TTL }}
         run: bundle exec rake
-
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          path-to-lcov: ./coverage/lcov/halo-api.lcov

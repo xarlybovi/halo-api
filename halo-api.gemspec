@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'redis', '~> 4.3'
 
   spec.add_development_dependency 'bundler', '~> 2.2.24'
+  spec.add_development_dependency 'codecov', '~> 0.4.3'
   spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
   spec.add_development_dependency 'pry', '~> 0.11'
   spec.add_development_dependency 'rake', '~> 13.0.6'
@@ -36,6 +37,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop-performance', '~> 1.11'
   spec.add_development_dependency 'rubocop-rspec', '~> 2.4.0'
   spec.add_development_dependency 'simplecov', '~> 0.21'
-  spec.add_development_dependency 'simplecov-lcov', '~> 0.8'
   spec.add_development_dependency 'wwtd', '~> 1.4.1'
 end

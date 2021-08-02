@@ -1,17 +1,19 @@
 # frozen_string_literal: true
 
 require 'simplecov'
-require 'simplecov-lcov'
 require 'bundler/setup'
 require 'dotenv'
 require 'pry'
 
-SimpleCov::Formatter::LcovFormatter.config.report_with_single_file = true
-SimpleCov.formatter = SimpleCov::Formatter::LcovFormatter
 SimpleCov.start do
   track_files '{lib}/**/*.rb'
   add_filter 'spec/'
   add_filter 'lib/halo-api/version'
+end
+
+if ENV['CI'] == 'true'
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
 
 Dotenv.load('.env')
