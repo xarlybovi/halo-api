@@ -24,6 +24,11 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
       - name: Run tests
+        env:
+          HALO_API_KEY: ${{ secrets.HALO_API_KEY }}
+          HALO_REGION: ${{ secrets.HALO_REGION }}
+          HALO_REDIS: ${{ secrets.HALO_REDIS }}
+          HALO_TTL: ${{ secrets.HALO_TTL }}
         run: bundle exec rake
       - name: Run linters
         run: bundle exec rubocop
