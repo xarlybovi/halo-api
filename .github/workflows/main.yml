@@ -1,6 +1,6 @@
 name: Ruby
 
-on: [ push,pull_request ]
+on: [ 'push', 'pull_request' ]
 
 jobs:
   build:
@@ -18,11 +18,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
+
       - name: Run tests
         env:
           HALO_API_KEY: ${{ secrets.HALO_API_KEY }}
@@ -30,5 +32,11 @@ jobs:
           HALO_REDIS: ${{ secrets.HALO_REDIS }}
           HALO_TTL: ${{ secrets.HALO_TTL }}
         run: bundle exec rake
+
       - name: Run linters
         run: bundle exec rubocop
+
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}

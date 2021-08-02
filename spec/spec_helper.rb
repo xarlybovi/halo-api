@@ -1,12 +1,10 @@
 # frozen_string_literal: true
 
 require 'simplecov'
-require 'coveralls'
 require 'bundler/setup'
 require 'dotenv'
 require 'pry'
 
-SimpleCov.formatter = Coveralls::SimpleCov::Formatter
 SimpleCov.start do
   track_files '{lib}/**/*.rb'
   add_filter 'spec/'
