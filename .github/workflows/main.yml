@@ -33,9 +33,6 @@ jobs:
           HALO_TTL: ${{ secrets.HALO_TTL }}
         run: bundle exec rake
 
-      - name: Run rubocop checks
-        run: bundle exec rubocop -D -c .rubocop.yml
-
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
