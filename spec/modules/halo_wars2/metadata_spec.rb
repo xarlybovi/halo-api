@@ -1,13 +1,14 @@
 # frozen_string_literal: true
 
 describe Halo::HaloWars2::Metadata do
-  before(:each) do
+  subject(:client) { Halo.halo_wars2 }
+
+  before do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
       config.region  = ENV['HALO_REGION']
       config.redis   = ENV['HALO_REDIS']
     end
-    @client = Halo.halo_wars2
   end
 
   # it { should respond_to(:campaign_levels) }
@@ -28,10 +29,10 @@ describe Halo::HaloWars2::Metadata do
   # it { should respond_to(:techs) }
 
   describe 'Metadata sample request' do
-    let(:result) { @client.metadata.campaign_levels }
+    let(:result) { client.metadata.campaign_levels }
 
     it 'returns the campaign levels paging' do
-      expect(result).to_not be_nil
+      expect(result).not_to be_nil
       expect(result.first.last).to have_key 'TotalCount'
     end
   end

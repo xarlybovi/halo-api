@@ -1,12 +1,13 @@
 # frozen_string_literal: true
 
 describe Halo::Halo5::Stats do
-  before(:each) do
+  subject(:client) { Halo.halo5 }
+
+  before do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
       config.region  = ENV['HALO_REGION']
     end
-    @client = Halo.halo5
   end
 
   # it { should respond_to(:company) }
@@ -28,10 +29,10 @@ describe Halo::Halo5::Stats do
   # it { should respond_to(:pc_psr_custom) }
 
   describe 'Stats sample request' do
-    let(:result) { @client.stats.player_match_history('xarly bovi') }
+    let(:result) { client.stats.player_match_history('xarly bovi') }
 
     it 'returns the player match history' do
-      expect(result).to_not be_nil
+      expect(result).not_to be_nil
       expect(result).to have_key 'Results'
     end
   end

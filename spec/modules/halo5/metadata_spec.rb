@@ -1,14 +1,15 @@
 # frozen_string_literal: true
 
 describe Halo::Halo5::Metadata do
-  before(:each) do
+  subject(:client) { Halo.halo5 }
+
+  before do
     Halo.configure do |config|
       config.api_key = ENV['HALO_API_KEY']
       config.region  = ENV['HALO_REGION']
       config.redis   = ENV['HALO_REDIS']
       config.ttl     = ENV['HALO_TTL']
     end
-    @client = Halo.halo5
   end
 
   # it { should respond_to(:campaign_missions) }
@@ -33,11 +34,11 @@ describe Halo::Halo5::Metadata do
   # it { should respond_to(:weapons) }
 
   describe 'Metadata sample request' do
-    let(:result) { @client.metadata.campaign_missions }
+    let(:result) { client.metadata.campaign_missions }
     # binding.pry
 
     it 'returns a list of all campaign missions' do
-      expect(result).to_not be_nil
+      expect(result).not_to be_nil
       expect(result.first).to have_key 'id'
     end
   end

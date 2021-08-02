@@ -2,7 +2,7 @@
 
 describe Halo::Client do
   describe 'configuration' do
-    before(:each) do
+    before do
       Halo.configure do |config|
         config.api_key = ENV['HALO_API_KEY']
         config.region = ENV['HALO_REGION']
@@ -42,7 +42,7 @@ describe Halo::Client do
   end
 
   describe 'caching' do
-    before(:each) do
+    before do
       Halo.configure do |config|
         config.api_key = ENV['HALO_API_KEY']
         config.redis = ENV['HALO_REDIS']
@@ -52,7 +52,7 @@ describe Halo::Client do
     end
 
     it 'sets caching if redis is specified in the options' do
-      expect(subject.cached?).to be_truthy
+      expect(subject.cached?).to be(true)
     end
 
     it 'default ttl of 30 * 60s' do
