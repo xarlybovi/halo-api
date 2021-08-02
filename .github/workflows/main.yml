@@ -34,7 +34,7 @@ jobs:
         run: bundle exec rake
 
       - name: Run linters
-        run: bundle exec rubocop
+        run: rubocop
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
