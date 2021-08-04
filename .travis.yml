@@ -1,7 +1,0 @@
-sudo: false
-language: ruby
-rvm:
-  - 2.6.8@halo-api
-before_install: gem install bundler -v 2.2.24
-services:
-  - redis
