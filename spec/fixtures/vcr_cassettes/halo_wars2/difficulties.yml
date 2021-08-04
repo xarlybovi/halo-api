@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/metadata/hw2/difficulties
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '4160'
+      Content-Type:
+      - application/json
+      Content-Language:
+      - en
+      Expires:
+      - Wed, 04 Aug 2021 17:34:22 GMT
+      Age:
+      - '0'
+      Etag:
+      - '"PdH2AF0OjbIph0gQ91LOM88PuNY="'
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - AdoE21d3AEu9xXODOA9Nfw==,AdoE21d3AEu9xXODOA9Nfw==
+      X-343-Authorization-Policy:
+      - public
+      X-Served-By:
+      - Orchard.Azure.Web_IN_1
+      X-Last-Rendered-At:
+      - '2017-02-03T19:43:58.1264149Z'
+      X-Last-Rendered-Item:
+      - '201942'
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 04 Aug 2021 17:34:22 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJQYWdpbmciOnsiU3RhcnRBdCI6MCwiSW5saW5lQ291bnQiOjQsIlRvdGFsQ291bnQiOjR9LCJDb250ZW50SXRlbXMiOlt7IklkIjoyMDI1NzAsIlR5cGUiOiJIVzJEaWZmaWN1bHR5IiwiVmlldyI6eyJTdGF0dXMiOiJQdWJsaXNoZWQiLCJUaXRsZSI6Ik5vcm1hbCIsIkhXMkRpZmZpY3VsdHkiOnsiRGlzcGxheUluZm8iOnsiSWQiOjIwMTk0MiwiVHlwZSI6IkhXMkRpZmZpY3VsdHlEaXNwbGF5SW5mbyIsIlZpZXciOnsiU3RhdHVzIjoiUHVibGlzaGVkIiwiQ29tbW9uIjp7Ik93bmVyIjoiZWRvc3Ryb3YiLCJDcmVhdGVkVXRjIjoiMjAxNi0wOC0xMlQxNjozNToyMFoiLCJNb2RpZmllZFV0YyI6IjIwMTctMDItMDNUMTg6Mjc6MDVaIiwiUHVibGlzaGVkVXRjIjoiMjAxNy0wMi0wM1QxOTozNzoyN1oiLCJDb250YWluZXIiOi0xfSwiSWRlbnRpdHkiOiIxYmQ1NzkyZTljZTE0NTFmOTgwYzVjYmViMjAzZGMxYyIsIkJhdGNoTG9jYWxpemF0aW9uIjp7IklzTG9ja2VkIjpmYWxzZX0sIkxvY2FsaXphdGlvbiI6eyJDdWx0dXJlIjoiZW4iLCJNYXN0ZXJDb250ZW50SXRlbUlkIjoiIn0sIlRpdGxlIjoiTm9ybWFsIERpc3BsYXkgSW5mbyIsIkhXMkRpZmZpY3VsdHlEaXNwbGF5SW5mbyI6eyJOYW1lIjoiTm9ybWFsIiwiRGVzY3JpcHRpb24iOiJUaGUgZW5lbXkgd2lsbCBub3QgcmVsZW50IHVudGlsIHlvdSBhcmUgZGVzdHJveWVkLCBidXQgYSBjb25zaWRlcmVkIHN0cmF0ZWd5IGFuZCBhd2FyZW5lc3Mgb2YgdGhlIGVudmlyb25tZW50IHNob3VsZCBoZWxwIHlvdSBwcmV2YWlsLiBSZWNvbW1lbmRlZCBmb3IgcGxheWVycyB3aXRoIFJUUyBleHBlcmllbmNlLiJ9fX0sIklEIjoyfSwiQ29tbW9uIjp7Ik93bmVyIjoiZWRvc3Ryb3YiLCJDcmVhdGVkVXRjIjoiMjAxNi0wOC0xMlQxNjozNToyNVoiLCJNb2RpZmllZFV0YyI6IjIwMTctMDItMDNUMTg6MTU6NDBaIiwiUHVibGlzaGVkVXRjIjoiMjAxNy0wMi0wM1QxOTo0MTozNFoiLCJDb250YWluZXIiOi0xfSwiSWRlbnRpdHkiOiI2ODU1ZTA2Mjg0NTU0MmUyYWY2NTQwZWVhZjc4ZTM5ZSJ9LCJMaW5rcyI6W3siQWJzb2x1dGUiOmZhbHNlLCJSZWxhdGlvbiI6IlNlbGYiLCJVUkkiOiIvY29udGVudC8yMDI1NzAifV0sIkNoaWxkcmVuQ291bnQiOjB9LHsiSWQiOjIwMjYzMCwiVHlwZSI6IkhXMkRpZmZpY3VsdHkiLCJWaWV3Ijp7IlN0YXR1cyI6IlB1Ymxpc2hlZCIsIlRpdGxlIjoiRWFzeSIsIkhXMkRpZmZpY3VsdHkiOnsiRGlzcGxheUluZm8iOnsiSWQiOjIwMTk2OSwiVHlwZSI6IkhXMkRpZmZpY3VsdHlEaXNwbGF5SW5mbyIsIlZpZXciOnsiU3RhdHVzIjoiUHVibGlzaGVkIiwiQ29tbW9uIjp7Ik93bmVyIjoiZWRvc3Ryb3YiLCJDcmVhdGVkVXRjIjoiMjAxNi0wOC0xMlQxNjozMzozMVoiLCJNb2RpZmllZFV0YyI6IjIwMTctMDItMDNUMTg6Mjc6MDVaIiwiUHVibGlzaGVkVXRjIjoiMjAxNy0wMi0wM1QxOTozNToyNVoiLCJDb250YWluZXIiOi0xfSwiSWRlbnRpdHkiOiIyMjU2MjBjNmExZWU0Y2U0YWQ0ZDIwYzA2NTViOTdhMyIsIkJhdGNoTG9jYWxpemF0aW9uIjp7IklzTG9ja2VkIjpmYWxzZX0sIkxvY2FsaXphdGlvbiI6eyJDdWx0dXJlIjoiZW4iLCJNYXN0ZXJDb250ZW50SXRlbUlkIjoiIn0sIlRpdGxlIjoiRWFzeSBEaXNwbGF5IEluZm8iLCJIVzJEaWZmaWN1bHR5RGlzcGxheUluZm8iOnsiTmFtZSI6IkVhc3kiLCJEZXNjcmlwdGlvbiI6IkN1dCB0aHJvdWdoIHN3YXRoZXMgb2YgZm9lcyB3aXRoIGVhc2UgYW5kIHJldmVsIGluIHlvdXIgdW5zdG9wcGFibGUgb25zbGF1Z2h0LiBSZWNvbW1lbmRlZCBmb3IgcGxheWVycyBuZXcgdG8gSGFsbyBXYXJzIDIuIn19fSwiSUQiOjF9LCJDb21tb24iOnsiT3duZXIiOiJlZG9zdHJvdiIsIkNyZWF0ZWRVdGMiOiIyMDE2LTA4LTEyVDE2OjMzOjQ2WiIsIk1vZGlmaWVkVXRjIjoiMjAxNy0wMi0wM1QxODoxNTo0MFoiLCJQdWJsaXNoZWRVdGMiOiIyMDE3LTAyLTAzVDE5OjM1OjQ5WiIsIkNvbnRhaW5lciI6LTF9LCJJZGVudGl0eSI6ImYxY2ZhZTJlNDgzMjQyMDdiZWUxNmI5Njk4MzhlYjJiIn0sIkxpbmtzIjpbeyJBYnNvbHV0ZSI6ZmFsc2UsIlJlbGF0aW9uIjoiU2VsZiIsIlVSSSI6Ii9jb250ZW50LzIwMjYzMCJ9XSwiQ2hpbGRyZW5Db3VudCI6MH0seyJJZCI6MjAyMDE0LCJUeXBlIjoiSFcyRGlmZmljdWx0eSIsIlZpZXciOnsiU3RhdHVzIjoiUHVibGlzaGVkIiwiVGl0bGUiOiJIZXJvaWMiLCJIVzJEaWZmaWN1bHR5Ijp7IkRpc3BsYXlJbmZvIjp7IklkIjoyMDIwMDgsIlR5cGUiOiJIVzJEaWZmaWN1bHR5RGlzcGxheUluZm8iLCJWaWV3Ijp7IlN0YXR1cyI6IlB1Ymxpc2hlZCIsIkNvbW1vbiI6eyJPd25lciI6ImVkb3N0cm92IiwiQ3JlYXRlZFV0YyI6IjIwMTYtMDgtMTJUMTY6MzU6NTBaIiwiTW9kaWZpZWRVdGMiOiIyMDE3LTAyLTAzVDE4OjI3OjA1WiIsIlB1Ymxpc2hlZFV0YyI6IjIwMTctMDItMDNUMTk6MzQ6MzRaIiwiQ29udGFpbmVyIjotMX0sIklkZW50aXR5IjoiOWFjNmQ5NmY1NjdhNGU1MWE0Njc1YzgwZTQzZTIwZWQiLCJCYXRjaExvY2FsaXphdGlvbiI6eyJJc0xvY2tlZCI6ZmFsc2V9LCJMb2NhbGl6YXRpb24iOnsiQ3VsdHVyZSI6ImVuIiwiTWFzdGVyQ29udGVudEl0ZW1JZCI6IiJ9LCJUaXRsZSI6Ikhlcm9pYyBEaXNwbGF5IEluZm8iLCJIVzJEaWZmaWN1bHR5RGlzcGxheUluZm8iOnsiTmFtZSI6Ikhlcm9pYyIsIkRlc2NyaXB0aW9uIjoiWW91IGFyZSBvdXRndW5uZWQgYW5kIG91dG51bWJlcmVkLCBhbmQgd2lsbCBoYXZlIHRvIHV0aWxpemUgZXZlcnkgc2tpbGwgYW5kIHRhY3RpYyB5b3XigJl2ZSBsZWFybnQgdG8gc3Vydml2ZS4gUmVjb21tZW5kZWQgZm9yIHBsYXllcnMgd2hvIGhhdmUgbWFzdGVyZWQgSGFsbyBXYXJzIDIuIn19fSwiSUQiOjN9LCJDb21tb24iOnsiT3duZXIiOiJlZG9zdHJvdiIsIkNyZWF0ZWRVdGMiOiIyMDE2LTA4LTEyVDE2OjM1OjU0WiIsIk1vZGlmaWVkVXRjIjoiMjAxNy0wMi0wM1QxODoxNTo0MFoiLCJQdWJsaXNoZWRVdGMiOiIyMDE3LTAyLTAzVDE5OjM1OjQ4WiIsIkNvbnRhaW5lciI6LTF9LCJJZGVudGl0eSI6Ijk3MTYyMjcyYWU2OTRkYTc4MGI1ZGQ3MWMxY2U4MGRjIn0sIkxpbmtzIjpbeyJBYnNvbHV0ZSI6ZmFsc2UsIlJlbGF0aW9uIjoiU2VsZiIsIlVSSSI6Ii9jb250ZW50LzIwMjAxNCJ9XSwiQ2hpbGRyZW5Db3VudCI6MH0seyJJZCI6MjAyNjI0LCJUeXBlIjoiSFcyRGlmZmljdWx0eSIsIlZpZXciOnsiU3RhdHVzIjoiUHVibGlzaGVkIiwiVGl0bGUiOiJMZWdlbmRhcnkiLCJIVzJEaWZmaWN1bHR5Ijp7IkRpc3BsYXlJbmZvIjp7IklkIjoyMDE5MDAsIlR5cGUiOiJIVzJEaWZmaWN1bHR5RGlzcGxheUluZm8iLCJWaWV3Ijp7IlN0YXR1cyI6IlB1Ymxpc2hlZCIsIkNvbW1vbiI6eyJPd25lciI6ImVkb3N0cm92IiwiQ3JlYXRlZFV0YyI6IjIwMTYtMDgtMTJUMTY6MzY6MzhaIiwiTW9kaWZpZWRVdGMiOiIyMDE3LTAyLTAzVDE4OjI3OjA1WiIsIlB1Ymxpc2hlZFV0YyI6IjIwMTctMDItMDNUMTk6MzQ6NDJaIiwiQ29udGFpbmVyIjotMX0sIklkZW50aXR5IjoiZGQ3NTQxYTllMzc5NDg2MDgyMTFiMTBmOWQ0Zjk3MDYiLCJCYXRjaExvY2FsaXphdGlvbiI6eyJJc0xvY2tlZCI6ZmFsc2V9LCJMb2NhbGl6YXRpb24iOnsiQ3VsdHVyZSI6ImVuIiwiTWFzdGVyQ29udGVudEl0ZW1JZCI6IiJ9LCJUaXRsZSI6IkxlZ2VuZGFyeSBEaXNwbGF5IEluZm8iLCJIVzJEaWZmaWN1bHR5RGlzcGxheUluZm8iOnsiTmFtZSI6IkxlZ2VuZGFyeSIsIkRlc2NyaXB0aW9uIjoiRmFjZSBpbnN1cm1vdW50YWJsZSBvZGRzIGFuZCBhbiBvdmVyd2hlbG1pbmcgZW5lbXkgZm9yY2UuIFRoaXMgaXMgd2hhdCBsZWdlbmRzIGFyZSBtYWRlIG9mLiJ9fX0sIklEIjo0fSwiQ29tbW9uIjp7Ik93bmVyIjoiZWRvc3Ryb3YiLCJDcmVhdGVkVXRjIjoiMjAxNi0wOC0xMlQxNjozNjo0M1oiLCJNb2RpZmllZFV0YyI6IjIwMTctMDItMDNUMTg6MTU6NDBaIiwiUHVibGlzaGVkVXRjIjoiMjAxNy0wMi0wM1QxOTozNTo0OFoiLCJDb250YWluZXIiOi0xfSwiSWRlbnRpdHkiOiI2ZjRhMjMzOWFhNzU0MTFlOTY1OGQ1Y2EyODhlYTEzYSJ9LCJMaW5rcyI6W3siQWJzb2x1dGUiOmZhbHNlLCJSZWxhdGlvbiI6IlNlbGYiLCJVUkkiOiIvY29udGVudC8yMDI2MjQifV0sIkNoaWxkcmVuQ291bnQiOjB9XX0=
+  recorded_at: Wed, 04 Aug 2021 17:34:23 GMT
+recorded_with: VCR 6.0.0

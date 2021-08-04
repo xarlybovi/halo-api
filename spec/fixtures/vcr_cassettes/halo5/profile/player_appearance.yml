@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/profile/h5/profiles/xarly%20bovi/appearance
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '224'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:08:48 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - v2k4nRRYeU2I4yJ0pmWp6g==
+      Date:
+      - Wed, 04 Aug 2021 21:08:48 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"Gamertag\": \"Xarly Bovi\",\r\n  \"LastModifiedUtc\": {\r\n
+        \   \"ISO8601Date\": \"2019-05-24T00:00:00Z\"\r\n  },\r\n  \"FirstModifiedUtc\":
+        {\r\n    \"ISO8601Date\": \"2015-10-31T00:00:00Z\"\r\n  },\r\n  \"ServiceTag\":
+        \"BOVI\",\r\n  \"Company\": null\r\n}"
+  recorded_at: Wed, 04 Aug 2021 21:08:48 GMT
+recorded_with: VCR 6.0.0

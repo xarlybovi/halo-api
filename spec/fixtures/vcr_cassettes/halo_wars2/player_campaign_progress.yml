@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/hw2/players/xarly%20bovi/campaign-progress
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1898'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 17:42:41 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - vRKzkNb1a0S6V4+f0zDD5A==
+      Date:
+      - Wed, 04 Aug 2021 17:42:41 GMT
+    body:
+      encoding: UTF-8
+      string: '{"CampaignXP":2800,"Levels":{"100":{"SkullsUnlocked":[2],"TotalSoloPlayTime":"PT17M31S","TotalCooperativePlayTime":"PT0S","SoloCompletion":{"2":{"BestCompletionTime":"PT30M7S","BestScore":95420,"CriticalObjectivesCompleted":[12,19,18,17,20,13,16,14,10,9],"BonusObjectivesCompleted":[],"OptionalObjectivesCompleted":[11,21]}},"CooperativeCompletion":{},"FirstCompletionDate":{"ISO8601Date":"2017-11-19T15:40:31.251Z"}},"99":{"SkullsUnlocked":[],"TotalSoloPlayTime":"PT34M23S","TotalCooperativePlayTime":"PT0S","SoloCompletion":{"2":{"BestCompletionTime":"PT6M49S","BestScore":62920,"CriticalObjectivesCompleted":[5,4],"BonusObjectivesCompleted":[],"OptionalObjectivesCompleted":[148,6]}},"CooperativeCompletion":{},"FirstCompletionDate":{"ISO8601Date":"2017-11-06T19:01:13.007Z"}},"200":{"SkullsUnlocked":[],"TotalSoloPlayTime":"PT34M43S","TotalCooperativePlayTime":"PT0S","SoloCompletion":{"2":{"BestCompletionTime":"PT34M43S","BestScore":38160,"CriticalObjectivesCompleted":[27,32,36,37,30,38,39,29,48],"BonusObjectivesCompleted":[45],"OptionalObjectivesCompleted":[31]}},"CooperativeCompletion":{},"FirstCompletionDate":{"ISO8601Date":"2017-11-19T16:18:00.49Z"}},"210":{"SkullsUnlocked":[5],"TotalSoloPlayTime":"PT13M8S","TotalCooperativePlayTime":"PT0S","SoloCompletion":{"2":{"BestCompletionTime":"PT13M8S","BestScore":122590,"CriticalObjectivesCompleted":[143],"BonusObjectivesCompleted":[],"OptionalObjectivesCompleted":[182]}},"CooperativeCompletion":{},"FirstCompletionDate":{"ISO8601Date":"2017-11-19T16:33:27.763Z"}},"300":{"SkullsUnlocked":[],"TotalSoloPlayTime":"PT0S","TotalCooperativePlayTime":"PT0S","SoloCompletion":{},"CooperativeCompletion":{},"FirstCompletionDate":null}},"LogsUnlocked":[9,17,31,74,65,68,95,94,93,35,99,102,103,118,119,117,116,15,90,36,32,46,42,40,37,39,51,55,57,56,60,50,33,34,27,80,73,81,70,101,86,85,89,104,16,28,45,44,52,54,58,53,79,72,26,88,83,1,67,71,106]}'
+  recorded_at: Wed, 04 Aug 2021 17:42:42 GMT
+recorded_with: VCR 6.0.0

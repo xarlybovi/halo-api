@@ -1,0 +1,192 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5/players/xarly%20bovi/commendations
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:04:41 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - n2pyGItW1EGfnvLsy0oweQ==
+      Date:
+      - Wed, 04 Aug 2021 21:04:41 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"Links\": {\r\n    \"Self\": {\r\n      \"AuthorityId\": \"spartanstats\",\r\n
+        \     \"Path\": \"/h5/players/xarly%20bovi/commendations\",\r\n      \"QueryString\":
+        \"\",\r\n      \"RetryPolicyId\": \"\",\r\n      \"TopicName\": \"\",\r\n
+        \     \"AcknowledgementTypeId\": 0,\r\n      \"AuthenticationLifetimeExtensionSupported\":
+        false,\r\n      \"ClearanceAware\": false\r\n    }\r\n  },\r\n  \"ProgressiveCommendations\":
+        [\r\n    {\r\n      \"Id\": \"69052722-1fd7-469d-8625-85723f7c5750\",\r\n
+        \     \"Progress\": 2,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"db6897f3-5f2d-44d4-959a-21f74ab0ac83\",\r\n      \"Progress\":
+        1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"9323eff5-3a3b-4c20-8a90-ea7f41aa0828\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"6813ed32-2d2d-4be5-93b9-5772e855dcbe\",\r\n      \"Progress\":
+        1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"1d32707e-9bbc-4cbe-af33-fdc0c8bd64b2\",\r\n
+        \     \"Progress\": 25,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"70117fad-ab31-4d8f-a1d8-9dc6846862ee\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"8a0bd0cc-d0a3-4d90-ac83-c785cf8f44af\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"858c8372-7879-4ee1-ba81-3213f1e9da0f\",\r\n      \"Progress\":
+        1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"20dc7d74-be8f-4a60-ae4f-15230855cced\",\r\n
+        \     \"Progress\": 282,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"ce732473-cec2-48da-a723-0a138a0b5ced\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-02T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"cd1ef64e-81d6-46c0-9920-4ad6fb7d3e64\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"502ccc42-9c44-4f83-a981-d290a9a6cc1b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"31ccb980-a280-4502-8532-fae95e654a84\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"178cf53a-7686-445c-ba6d-a3e76788b2f1\",\r\n
+        \     \"Progress\": 4,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"f33f1aec-59ad-47eb-be13-fd0e654a53aa\",\r\n      \"Progress\":
+        27,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"8e809ee5-ba61-4d22-a7d2-03a41415993a\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"07653860-9949-4a12-b341-90c8b9653165\",\r\n
+        \     \"Progress\": 70,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"f445d4bc-4794-4730-9a60-25a69219ac06\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"02aeb73b-ec63-4967-8cd4-d0bd8fc98fc6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"112e4f5e-d983-4194-aac6-4cd444e2d4f5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"6d0d92dc-59a8-430c-9cd1-9e024e35a514\",\r\n
+        \     \"Progress\": 38,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"e2e7a635-5180-4514-9c75-f2830833ad32\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"e2f6e81a-a109-4608-b366-ff39b0f8d1b9\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"ad36d0cd-7e44-49a2-8a2c-c103a38f17d8\",\r\n
+        \     \"Progress\": 10,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"d9e8f0aa-a1c8-4a6f-8801-5fc22bd4ecd8\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"61eac0e9-0a4c-4f90-aca2-c322a88a4763\",\r\n
+        \     \"Progress\": 5,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"877202f2-e915-4fbc-a20b-47472a7ad794\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"1f8a93a3-6e1f-4f48-afe2-5ce1c44f2458\",\r\n
+        \     \"Progress\": 40,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"946fbfa1-46e0-4e5b-9085-ff520977dc58\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"1a380452-18bb-4737-b790-66ea6a51d829\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"80183f86-a0f2-482c-bfc4-f2260f1b6a96\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c9bcb904-607f-42ea-acae-4cbdcdf65143\",\r\n
+        \     \"Progress\": 10,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"ba365414-e8e2-4eba-8494-2017ff575972\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"61217e0a-832e-487b-9f3b-51b36a6803c7\",\r\n
+        \     \"Progress\": 84,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"ef21e446-75c8-48f4-bce5-a00b03be1559\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"5de05e8a-9d44-4b04-9afa-9ae25e65f536\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"6fb1682c-a317-4404-b14b-3678f1614670\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"57af1780-0f64-4fba-ae4e-201760d83611\",\r\n
+        \     \"Progress\": 9,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"542dcfe0-b8a3-413f-8b3d-19a36d9ff8b2\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-12-30T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"b2aa723e-5208-451d-81ce-44adc687acd1\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"24e0ba42-59df-4c45-9fe6-d4fb739aeadc\",\r\n      \"Progress\":
+        12,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"9a7d0445-d2a8-4549-a227-d1222dcdd92e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"4f65785e-78e0-4296-80d4-55b316f60ec5\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"2d5080e0-62ee-42d9-a2dd-364d101832ea\",\r\n      \"Progress\":
+        6,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"5f0fb4c9-19e6-44bf-a751-f254a5de8adc\",\r\n
+        \     \"Progress\": 6,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"f052f593-5261-42c5-8c82-825be5ad64a0\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"31930c71-669d-47c8-99a9-45e8afa19a7d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"e1203a73-2067-4479-9a47-2abccb0069ae\",\r\n
+        \     \"Progress\": 12,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"a2dd70bf-483f-4189-948b-aa124034e5db\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"9abad424-fe03-48e1-904b-e86d62d6d630\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-28T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"af609abb-c6e2-4e97-826f-5aca4fccf70c\",\r\n
+        \     \"Progress\": 7,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"ab7c2b82-1c4b-4ba8-accf-0dfc5cf2ff77\",\r\n      \"Progress\":
+        3,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"3c357b49-4860-48b7-9d92-dfdfd9931b49\",\r\n
+        \     \"Progress\": 5,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"79b6e993-ff9b-4a53-9789-cccaf86a4e22\",\r\n      \"Progress\":
+        20,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"11197103-afe0-4376-8dbf-e67a5e59b0e2\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"34a6652c-00c0-4658-9ac1-487221cb2a40\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-12-28T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"2bda6fbf-4a87-4e10-9684-c971c8b43226\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"7d05bc12-7328-44fe-913e-1a64fe6a2a64\",\r\n      \"Progress\":
+        6,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"05af5790-8e8f-49d0-8af5-9299b4296330\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"7d91c1a2-0555-476c-9b04-fd6321f053cf\",\r\n
+        \     \"Progress\": 14,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"d1475ba8-428d-4dea-9af7-89e2453a5191\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"0007253f-ac80-4ed8-bfa9-8690a1b49cae\",\r\n
+        \     \"Progress\": 1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"750783af-3332-4c7d-b5b5-26aa8800655a\",\r\n      \"Progress\":
+        6,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"5510fc8f-49a6-4ae6-96c0-7890778f9fa8\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"d3b6b1ce-c5f0-4cbf-b443-ca76c2917b77\",\r\n
+        \     \"Progress\": 13,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"75d064f9-da0e-481b-9b97-6b154356458d\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-12-28T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"49b744bf-ec46-47aa-bb16-0042cbf49614\",\r\n
+        \     \"Progress\": 4,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"bf0dfd8d-91e4-4013-bff6-233f7296311b\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"e4195550-426b-471e-ab67-570207d86847\",\r\n
+        \     \"Progress\": 5,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"35eda609-868a-4453-984b-42130799724c\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2015-11-08T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"be522e1e-eada-4ec7-aba9-7ee0c0d6732a\",\r\n
+        \     \"Progress\": 0,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"a7b68c66-7195-401d-9f82-df4da96b66c3\",\r\n      \"Progress\":
+        1,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"8594ca5e-6f59-4e21-b601-406111fa2b58\",\r\n
+        \     \"Progress\": 2,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"664b927f-3684-48c5-8653-dfa6938ceac6\",\r\n      \"Progress\":
+        1,\r\n      \"CompletedLevels\": []\r\n    }\r\n  ],\r\n  \"MetaCommendations\":
+        [],\r\n  \"LastUpdatedDateUtc\": {\r\n    \"ISO8601Date\": \"2016-01-02T00:00:00Z\"\r\n
+        \ }\r\n}"
+  recorded_at: Wed, 04 Aug 2021 21:04:41 GMT
+recorded_with: VCR 6.0.0

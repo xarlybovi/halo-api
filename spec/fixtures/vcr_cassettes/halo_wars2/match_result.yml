@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/hw2/matches/99827423-b70e-457f-9f87-c81b38ca9061
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 17:54:47 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - P966EFK0QEuhI3zxEjMDzQ==
+      Date:
+      - Wed, 04 Aug 2021 17:54:47 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"MatchId":"99827423-b70e-457f-9f87-c81b38ca9061","MatchType":3,"GameMode":3,"SeasonId":null,"PlaylistId":"282fc197-7bf1-4865-81ec-a312d07567b6","MapId":"skirmish\\design\\MP_Boneyard\\MP_Boneyard","IsMatchComplete":true,"MatchEndReason":1,"VictoryCondition":1,"MatchStartDate":{"ISO8601Date":"2021-07-12T22:44:57.457Z"},"MatchDuration":"PT1M36.854S","Teams":{"1":{"TeamSize":3,"MatchOutcome":2,"ObjectiveScore":0},"2":{"TeamSize":3,"MatchOutcome":1,"ObjectiveScore":0}},"Players":{"1":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"FiftiethFiber13","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":1,"TeamPlayerIndex":0,"LeaderId":14,"PlayerCompletedMatch":false,"TimeInMatch":"PT1M31.744S","PlayerMatchOutcome":2,"PointStats":{},"UnitStats":{"cov_inf_gruntswarm_01":{"TotalBuilt":5,"TotalLost":1,"TotalDestroyed":0},"cov_inf_gruntswarm_01_frommine":{"TotalBuilt":2,"TotalLost":0,"TotalDestroyed":0}},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{"Grunt_AmbushMine1":{"TimesCast":1},"CovAmbushGrunts_01":{"TimesCast":1}},"XPProgress":{"PreviousTotalXP":253656,"GameplayXP":0,"ChallengesXP":0,"UpdatedTotalXP":253656,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":1.2671740800272915,"Variance":0.096469735918145769,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":1.2498947062115973,"Variance":0.096185004450912229,"LastModifiedDate":{"ISO8601Date":""}}}},"2":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"A
+        Kook God","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":1,"TeamPlayerIndex":1,"LeaderId":8,"PlayerCompletedMatch":false,"TimeInMatch":"PT1M28.982S","PlayerMatchOutcome":2,"PointStats":{},"UnitStats":{"unsc_veh_mongoose_01":{"TotalBuilt":1,"TotalLost":1,"TotalDestroyed":0},"unsc_inf_generic_marine":{"TotalBuilt":0,"TotalLost":1,"TotalDestroyed":0}},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{},"XPProgress":{"PreviousTotalXP":334920,"GameplayXP":0,"ChallengesXP":0,"UpdatedTotalXP":334920,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":1.4062080849511305,"Variance":0.0965186885673363,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":1.3887846199116023,"Variance":0.096233531649979609,"LastModifiedDate":{"ISO8601Date":""}}}},"3":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"ScurvyTangent0","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":1,"TeamPlayerIndex":2,"LeaderId":12,"PlayerCompletedMatch":false,"TimeInMatch":"PT1M36.754S","PlayerMatchOutcome":2,"PointStats":{},"UnitStats":{},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{},"XPProgress":{"PreviousTotalXP":192470,"GameplayXP":0,"ChallengesXP":0,"UpdatedTotalXP":192470,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":-1.1187398570541229,"Variance":0.15326670329528103,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":-1.1455034002175688,"Variance":0.15239624340097796,"LastModifiedDate":{"ISO8601Date":""}}}},"4":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"somescrub54","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":2,"TeamPlayerIndex":0,"LeaderId":11,"PlayerCompletedMatch":true,"TimeInMatch":"PT1M36.854S","PlayerMatchOutcome":1,"PointStats":{"hook_bldg_EnergyCapturePoint_01":{"TimesCaptured":1}},"UnitStats":{"unsc_inf_generic_marine":{"TotalBuilt":2,"TotalLost":0,"TotalDestroyed":1},"unsc_veh_mongoose_01":{"TotalBuilt":0,"TotalLost":0,"TotalDestroyed":1}},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{},"XPProgress":{"PreviousTotalXP":385729,"GameplayXP":800,"ChallengesXP":0,"UpdatedTotalXP":386529,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":0.012833022624142931,"Variance":0.90547489758015409,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":0.17092387885838989,"Variance":0.87173040243819588,"LastModifiedDate":{"ISO8601Date":""}}}},"5":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"LegionGlyph","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":2,"TeamPlayerIndex":1,"LeaderId":11,"PlayerCompletedMatch":true,"TimeInMatch":"PT1M36.854S","PlayerMatchOutcome":1,"PointStats":{"hook_bldg_EnergyCapturePoint_01":{"TimesCaptured":1}},"UnitStats":{"unsc_inf_generic_marine":{"TotalBuilt":1,"TotalLost":0,"TotalDestroyed":0},"for_air_sentinel_01":{"TotalBuilt":0,"TotalLost":0,"TotalDestroyed":3}},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{},"XPProgress":{"PreviousTotalXP":785400,"GameplayXP":800,"ChallengesXP":0,"UpdatedTotalXP":786200,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":0.018429898868472461,"Variance":0.90339180767651717,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":0.17615705924835731,"Variance":0.86980283813404025,"LastModifiedDate":{"ISO8601Date":""}}}},"6":{"IsHuman":true,"HumanPlayerId":{"Gamertag":"High
+        Guderian","Xuid":null},"ComputerPlayerId":null,"ComputerDifficulty":null,"TeamId":2,"TeamPlayerIndex":2,"LeaderId":11,"PlayerCompletedMatch":true,"TimeInMatch":"PT1M36.854S","PlayerMatchOutcome":1,"PointStats":{"hook_bldg_EnergyCapturePoint_01":{"TimesCaptured":1}},"UnitStats":{"unsc_inf_generic_marine":{"TotalBuilt":1,"TotalLost":0,"TotalDestroyed":0},"cov_inf_gruntswarm_01":{"TotalBuilt":0,"TotalLost":0,"TotalDestroyed":1}},"CardStats":{},"WaveStats":{},"LeaderPowerStats":{},"XPProgress":{"PreviousTotalXP":94100,"GameplayXP":800,"ChallengesXP":0,"UpdatedTotalXP":94900,"CompletedSpartanRanks":[],"RanksCompleted":[]},"RatingProgress":{"PreviousCsr":null,"UpdatedCsr":null,"PreviousMmr":{"Rating":2.2160731972344525,"Variance":0.26495850089972783,"LastModifiedDate":{"ISO8601Date":""}},"UpdatedMmr":{"Rating":2.2623334705846285,"Variance":0.26215900323007579,"LastModifiedDate":{"ISO8601Date":""}}}}}}'
+  recorded_at: Wed, 04 Aug 2021 17:54:47 GMT
+recorded_with: VCR 6.0.0

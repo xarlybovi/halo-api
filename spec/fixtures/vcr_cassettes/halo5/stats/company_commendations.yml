@@ -1,0 +1,728 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5/companies/%20a34823e3-1772-4675-9731-28de0db87df5/commendations
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:04:32 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - 0HfhSTYR2UyIoQAPr01d/g==
+      Date:
+      - Wed, 04 Aug 2021 21:04:31 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"Links\": {\r\n    \"Self\": {\r\n      \"AuthorityId\": \"spartanstats\",\r\n
+        \     \"Path\": \"/h5/companies/%20a34823e3-1772-4675-9731-28de0db87df5/commendations\",\r\n
+        \     \"QueryString\": \"\",\r\n      \"RetryPolicyId\": \"\",\r\n      \"TopicName\":
+        \"\",\r\n      \"AcknowledgementTypeId\": 0,\r\n      \"AuthenticationLifetimeExtensionSupported\":
+        false,\r\n      \"ClearanceAware\": false\r\n    }\r\n  },\r\n  \"ProgressiveCommendations\":
+        [\r\n    {\r\n      \"Id\": \"740fbb3b-5a5f-4691-88c9-7795e9218e37\",\r\n
+        \     \"Progress\": 1026000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"4a2c48ca-187b-45a9-8a8c-07efdd66b524\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-20T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"014affce-f242-49aa-99c9-f2115970cddd\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-09T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"c1210fad-fa95-4927-bb02-e1fb331108d6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-03T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d3d7cec2-0f82-41cb-9e25-0525974a0e49\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1b4519e9-4acf-47d9-94e9-b34b918eb21f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-03-09T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c04e7495-f684-4808-8576-6c9e38fd936a\",\r\n
+        \     \"Progress\": 205200,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"81ce1703-b9ca-48ca-9423-866e8d51b8e4\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2018-08-18T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"6cbbdfb9-f176-42d1-9fde-ab16a359eaf3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"5ac9f71b-81e6-4e1e-8a2e-ce143fffa28b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"0d2d3b80-0635-4ba6-aab2-925327ac307c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-21T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"41d224ae-6e81-43ce-a704-0f389ec11e67\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-21T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"dfe47279-bfa7-44eb-bc7f-16c882b268c6\",\r\n
+        \     \"Progress\": 20500,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"90dcfa35-63b3-49fc-afd7-7835abf8b531\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2018-07-31T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"d489d413-7e49-419d-a67a-e18b001abaa2\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-14T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"e3294925-6ac7-43e6-896b-e3127e4d8cbc\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"fbf837f5-d9df-4478-adba-d8b454a90f41\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"20ed88ad-9d84-4754-b2ba-fa58dff68a6c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-01T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"710fb120-b34a-446e-bf12-361da6c9c1eb\",\r\n
+        \     \"Progress\": 61600,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"250e1b34-e18b-47cf-9f82-fbb124131a6a\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-13T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"8199c520-d29c-4eab-a8a5-fa31909afa6d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1ab6e8a0-ffe3-4bea-ac56-b1247e0cdbf8\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"df93c046-e5d2-4106-9196-caf767ff1a48\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-05T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"97d8d5ff-bd89-40e4-81a1-48c82f9f2a45\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-09-21T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"682c9040-2274-4d77-a68e-42fcea921275\",\r\n
+        \     \"Progress\": 20500,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"7f57b661-7e1a-4883-bcba-e45546813ea2\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-02T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"c0133548-31e5-42d9-96f6-1531140b47a7\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-30T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"06f7a450-2a5f-41af-955d-a77d882347e5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-12T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8898f91a-bba5-4ea3-b454-7018a2f917c5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-01T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"ef39a73f-73c5-4347-9af5-55ae0b4c842c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-06T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"b373ac7a-fa86-482b-a6fa-6ff3688b2f4a\",\r\n
+        \     \"Progress\": 6200,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"dcfa17bf-4b04-4a64-9c78-aaacac1687aa\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2017-11-24T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"dfaf5fd6-8a08-4c47-b071-7403a0abffac\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"5b0b37a7-abaf-4e7f-8c98-bb294257f3ea\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-21T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"ff49a6bf-9555-4854-bb17-f69aa2c92b9e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"3af41999-3724-462c-b71e-a1441de1b48e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-18T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"48760c2c-59f4-469f-b393-44dc48d06d41\",\r\n
+        \     \"Progress\": 15400,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"c0ceabdc-3262-4349-b1e6-24e8c7e30155\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-17T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"05bcc220-ecb8-4a0c-becb-0b35bfde619b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"96ae9a6d-6820-4639-94f4-cdce04891a6c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-31T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"f36c6a60-6030-40cf-94f5-3638c0bd2c9f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-01T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"33f7d0c6-e3c5-40cf-bb38-d2e84a6076d2\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-08-27T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"79ba9116-1a45-4435-a526-c28b71db8f30\",\r\n
+        \     \"Progress\": 8615,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"c3b0b60b-0233-479b-a563-b4985799018b\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-12T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"d015773e-50f3-44f8-bee9-e3eb5854f429\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-09T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"23f091f9-50c3-41f7-9135-27a04cc5fd46\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"c218315a-a108-4ae0-acdd-88708918d7a5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-03-21T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"cb34b64f-6086-451b-a0ac-e65559f89b81\",\r\n
+        \     \"Progress\": 324208,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"0393f940-be92-4dde-a9b4-84266acedd6d\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-13T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"66f59641-a058-4dfa-9c3e-2a7ca5540f92\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-02T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"dc142aff-8aa4-4c83-a54a-12a8e8402cd5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-23T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"27442773-a677-4914-9dd3-f6e5e42062c4\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-04-13T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"43bcc34a-58b0-48d2-90f9-d8b8a5374947\",\r\n
+        \     \"Progress\": 66955,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"1885e990-2c7d-4b42-a97f-65088d1b8792\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-21T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"cbb161f2-f5a0-42e2-8047-19831cc5c642\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-14T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"a6722e65-982d-455b-807b-756714cdff21\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-13T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"80f5b130-063f-486d-8e08-db77a411c6cc\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-18T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"31d78d08-3cc1-4af8-938c-c89a5e85b49b\",\r\n
+        \     \"Progress\": 102600,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"a6bb62ed-0d98-450c-97a5-603e23a922f0\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-19T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"5615a69a-1b3d-49c8-82b8-0336bd568c56\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-08T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"fedde2a4-79ca-4871-9bb2-be34e5aa625a\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-09T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1fc1603d-02aa-4a08-ac83-eab75e33676e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8f959f32-605b-40e2-8ee3-5b13fc57c754\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-04T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"2b7386f1-5ba8-4b92-ab79-4976b46285d6\",\r\n
+        \     \"Progress\": 61600,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"3db91e5a-2eee-4625-b9c3-a07f32920ff6\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"06fcc6f9-73da-4fa0-a6c6-48e475f1823e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-25T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4207d0d9-d1a4-4be8-a67a-76dc22af5717\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-27T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"3fe64a49-6317-470d-94ec-f952e184c775\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-25T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"50ba1ffc-9ac6-401e-8080-48e8f675624d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-04-11T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"f80dcf6e-2093-4634-841f-314f0aec2efc\",\r\n
+        \     \"Progress\": 552,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"279938f7-0ce0-4015-812f-dbc3b2b0a9ec\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2021-04-05T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"dffcebad-9c57-4974-beac-daba88c15ea2\",\r\n
+        \     \"Progress\": 9874,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"def220a0-4af6-4160-980f-056364f9bc99\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-22T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"942c95fa-47e9-4cbc-824b-913b1adb4666\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-02T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"7f040136-62ba-47a2-8935-5485b90d633a\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-22T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"24cdc6ee-5184-47fe-b26b-f317b08c1f5f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-04-08T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"e9f58e96-301b-4d58-9621-36fcea05a6a2\",\r\n
+        \     \"Progress\": 820800,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"be10d66c-e520-43c9-85bb-a9fd3cc4eec8\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-13T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"4d4dc79a-a3b3-4ad1-956b-5c9b3fbdfcee\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"998afd07-f9c3-4c48-8327-2b4d965ad47b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"67b4325f-8b21-4875-bad6-335eb78fe687\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-29T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"231ee404-a613-4f50-81ec-54bbd5848c16\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-08-14T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"27650c78-60d3-42a5-a1be-e92eceb7157b\",\r\n
+        \     \"Progress\": 615600,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"73900bed-9b17-4500-8060-9664b9960498\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-08T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"6df3c90e-ce1c-4300-b5d0-e2d4101432e4\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-03T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"9ffa80e0-e73d-4676-8087-0a1543a8c962\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b0162f48-7773-458b-b6fe-503d65edb626\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-01T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d1f5b471-6fd7-4397-89b0-84a2b7c35861\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-11T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"02bf07b9-2041-48a4-802d-818955b8df21\",\r\n
+        \     \"Progress\": 2707,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"d2e80462-2477-4eba-8cb0-dfc405114ed8\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-08-24T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"96179e21-1374-48a7-bfd3-e66759c69278\",\r\n
+        \     \"Progress\": 4827,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"4e9040c3-af41-410e-b7de-c718f52f2e2b\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-12T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"9d7d10bc-8acd-4856-8542-fff30d2bc49d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"ab00a4ef-4b0a-42db-8b92-f98d6d5411b8\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-02-24T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"d7205f89-37b3-47fe-a1a6-6fe487fe50b3\",\r\n
+        \     \"Progress\": 41000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"21c0c738-e078-40bb-896d-05d47db993fb\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-16T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"d584b43e-9cbd-4c8c-ba83-c2f1a3dafe63\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1d5d477a-73dd-4b81-aeea-a1a8abc8acac\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-04T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b65e0cff-c15c-410b-9a4f-b93776dcceb4\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-27T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"2a6a0ffd-f5d6-4101-8f2b-762d7aec0efe\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"9a778521-c93d-4d43-89a7-7d23d86eaabd\",\r\n
+        \     \"Progress\": 67531,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"13bbe335-1196-4cbf-94c0-622a339154f4\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-05-01T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"e878f430-461a-4871-96ae-59503003b3f4\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-27T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"5d80c828-ffd6-4a82-ba1c-73888ae8e984\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-12T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"cef2260e-6f8f-467d-9733-edcb06bf52e3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-23T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"9f94fdb3-4792-47c0-bb93-170085126a68\",\r\n
+        \     \"Progress\": 30800,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"2da72725-1f4f-4d9a-942f-def4ef6c4206\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2018-03-24T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"8eb6a37a-a0f5-457c-b1f3-3558b561c41d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-21T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4860e052-ba37-41fe-b2cc-351c98821615\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"e9d2f1d9-00ee-484f-a32d-2d5504eaa5f7\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-24T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"07b02897-92d9-46d3-ae71-a807be32a950\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-28T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"1af0980e-4dc9-4933-9113-a32577c6c49f\",\r\n
+        \     \"Progress\": 5100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"834c8b88-226a-4bce-b723-e0cb111280f3\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2017-09-15T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"728499c0-5d9f-433f-af89-ea3d46cc512b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2017-10-30T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b5559f67-6c1e-45ac-a369-e2445d7bad47\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-02-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"04581472-ff12-4430-8051-bb5d10ea82f2\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-02T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8c161719-daf5-43e1-8bd5-bfe52d45b7c6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-19T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c3dad742-f429-463f-9282-eaf07dd444bd\",\r\n
+        \     \"Progress\": 6155,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"4ae3655e-1c1f-466a-a59e-1be19e28be9e\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-26T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"3a619269-237d-4103-86f3-cc686ec7b297\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-21T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"9f3cd8b5-63d1-47ee-ab82-5e3dc318b547\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d9a1f6b9-1714-4ff4-b198-9c4936f60277\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-08-14T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"902bd019-b9d2-4848-a6a3-9b2cea498bf0\",\r\n
+        \     \"Progress\": 1136,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"e7d5556e-5958-4ccf-bd30-64382545f6af\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-30T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"3cbc86b0-1005-4e73-a81c-c5f7ccecccfd\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"cd08cc5e-8b35-4d88-ab65-09b2290ebe22\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-22T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"3ae83cd3-f52f-4f1b-874d-fddf742a361e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2021-05-10T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"f95a9909-53b2-4b08-8c12-88ac7e20c7d2\",\r\n
+        \     \"Progress\": 27095,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"14293ec6-560b-4081-977f-100bb644b931\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-05-08T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"1b34d8d0-fa82-4270-aaf5-ab84957926ee\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"edef9827-c817-41e0-baed-0354955a1da7\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-19T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"569e1767-f0c6-4e7f-808a-dd93459f2d89\",\r\n
+        \     \"Progress\": 45,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"f062e588-e428-4aab-b5de-00a91dca9644\",\r\n      \"Progress\":
+        8200,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"132f00a5-fe33-4636-a332-c6d5de3518b6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-14T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"0fa82986-08c0-4684-9c26-f26cc22b4ca0\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-05T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"54b1e0cb-485c-4f68-b97d-c48eb595a856\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-04T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"be6d3e62-0d8e-4162-b1d7-e89487de0394\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"43aad8e3-0448-460a-9cba-5de7ccd775ce\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-04-25T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"9d42480a-eb09-4cf1-8ba7-b38d37e8ab6d\",\r\n
+        \     \"Progress\": 41000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"13b15306-7fd7-4180-87da-05a99a84fb4d\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-27T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"9b2a6856-5416-4abb-9278-7d6e5b132159\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-08T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"809d513d-2d07-4568-9edc-d8f07e811911\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-19T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"36efcfc5-e46c-4324-970f-1c07fa077f6d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-02-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"2914ee30-5e4c-493d-8f3b-a8fccf9fd7b9\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2021-07-13T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"aac10b36-aa3c-45ad-926a-090078bf4fc0\",\r\n
+        \     \"Progress\": 2100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"f27c867b-3e97-48b3-8214-f212288691ed\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2017-11-22T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"37f9a764-e5cc-4be1-a355-bc611e2ea47a\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-03-19T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"46fa9372-5f0d-4ea1-824b-e5e72f97b111\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-21T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"ddc3b791-e98c-4b2b-b90b-0d3eda0017ee\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-24T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"0bf5024a-4218-478a-a506-bf612f8b8637\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-09T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"30316908-c854-4655-b2b6-3731b2d45b6d\",\r\n
+        \     \"Progress\": 3100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"c26ede9b-789b-45a4-b301-7a1891fc4233\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-01T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"ff500342-49f6-49cf-9cce-b36db75a3b56\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-11T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"6dc2b538-422c-4f41-9ce1-054698a2f6b0\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-09T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"5a326817-628e-4d63-a8f8-2d6807e375c5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-16T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"a181121f-a5a5-4261-b71e-1d7560e48673\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-27T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"5b14093c-2671-4229-b389-94c3e5d2a6a7\",\r\n
+        \     \"Progress\": 20500,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"7c328236-47fb-465e-a93a-ad70560290b1\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-06-06T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"4ed148f4-be1f-4325-9f10-24d0c931ce56\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-02T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"3fff4dcd-657a-43d0-8223-1d96e0c15869\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"17c03743-db6d-485d-84d9-de857b3500d3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-02-19T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"70a3e20a-18cf-4033-88e4-75316be308e6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-11-27T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c2f278c6-fcd8-42bd-9c0d-2eb33ebdc80c\",\r\n
+        \     \"Progress\": 4100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"caad11e4-b309-434f-9fb4-2407d7426003\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-28T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"79494bb5-0d24-4b92-a0c1-f678c386433e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-05T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"53d930a3-598f-4549-9677-bb355a008430\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8bdaf141-0cee-4a4d-93f2-9a7e6ad0664b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-12-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"bb5461ba-107f-4f9e-b754-34d3f24f747e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-24T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"bfa2d856-dd46-4f26-827c-60564bd5d8cd\",\r\n
+        \     \"Progress\": 55814,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"e755689b-2c20-4f8e-9999-5c31b91bf7a0\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-13T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"83bfcf7d-5c63-447c-bc7f-87c7b3f39690\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d3df76fd-f46f-4322-acb0-84d86a9a89ab\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-14T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"47b0efb1-7071-4f8f-a187-a199ab794044\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-06T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"92efab24-f425-4318-88ad-91a99e902627\",\r\n
+        \     \"Progress\": 11045,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"712c484d-6037-43ac-842f-e9765244d54b\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-13T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"e0c2e05e-f473-4dd7-85f0-683db47f570f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"a40edb11-1e23-4900-b647-67f7b7990772\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-11T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"394193d8-3ead-411e-940c-b6acc9520f82\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-12T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c98e9e44-8303-4075-b806-12bab777e582\",\r\n
+        \     \"Progress\": 23630,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"6b23fdc8-2da9-40b2-be81-c935b60dc835\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-05T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"ea09b86a-680c-46fe-9eb2-4d54cd847828\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-15T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8da0585e-a36a-40a5-bae5-4db37881e6e8\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-22T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"30ae2944-392e-4acd-ac45-b27cc176fbfb\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-17T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"99720097-b456-4420-8d56-82f0ddd85245\",\r\n
+        \     \"Progress\": 3678,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"9ab97bde-079a-4a90-b33c-0d0d9bcf84dc\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-04-12T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"c1123ae2-931a-4d50-b512-68000697df4d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"7b016bd5-e992-4b9c-95c1-e829119d4cf3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-15T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"462e525d-de41-43fa-bb3a-311baa28045e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-05-18T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"167c5064-7754-460c-8f32-5170d72ebff4\",\r\n
+        \     \"Progress\": 10300,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"94c62ef5-a623-4890-92b9-b8a4ffa86ee4\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-06-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"91b60430-03c5-431c-ab20-bdd4eb93ca66\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-11T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"dbd34c73-a006-403d-8689-085f1c80a41b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-19T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1c1e131e-ca35-4fd4-ae77-b8f014f80540\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-04-11T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"72c10bce-76d2-43e5-a649-335a2d83e071\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-11-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"8bfee6dc-f70f-4637-bbec-ee291e43dbff\",\r\n
+        \     \"Progress\": 950,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"d32907f8-6dc1-451e-a3d2-6a33cc5d5de7\",\r\n      \"Progress\":
+        655,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\":
+        \"52201af8-5f36-456c-93c8-aec57322c491\",\r\n      \"Progress\": 2893,\r\n
+        \     \"CompletedLevels\": [\r\n        {\r\n          \"Id\": \"65443045-e7b6-43d0-a0cb-f7c4d13be67f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"f4a253ec-f184-46f0-aebe-1ca11651908f\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-02T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"1510fd1d-3946-4d4b-a6b6-eb9ce4ea8887\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-12T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"030dd157-d2c5-41c6-808f-2ee57c92c0ad\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-03-31T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"b3526523-cd80-44a8-a4d7-e1fa397ec841\",\r\n
+        \     \"Progress\": 2050,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"4f7e317f-2efd-4667-a693-9eee3c609fce\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-05-24T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"5ab326fd-00c6-44ee-9785-700371a26e66\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-03T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"7d7dbd68-cf9e-4eb5-9320-f01edfdc8cc4\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2021-04-17T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"135a48be-9495-450e-be68-b895dcbd64cf\",\r\n
+        \     \"Progress\": 3828,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"0c9e5bcd-b429-41c7-b2a6-7080d9784a99\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-10-26T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"e85ddf79-0a11-44e9-a194-1a7491275a04\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-03-03T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"eab30a26-9392-42bf-a8c2-3d5444cbd7cf\",\r\n
+        \     \"Progress\": 4686,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"06c21236-547c-4cdd-80f6-72fc40af813d\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-10-03T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"a305fe51-7e19-40c5-bdb4-6c68328ad50c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"86bbfb0d-a0ac-4f11-a7c1-a3c81abcb3cf\",\r\n
+        \     \"Progress\": 379,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"ef11db8e-7a99-4647-9484-9f7f6e557e6f\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2020-02-06T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"f7430f92-ba92-4608-b4e5-08524fc4514d\",\r\n
+        \     \"Progress\": 41000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"d833517b-93ee-4699-94b7-47f0670927db\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-09T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"4c2fb1d9-e34d-4725-8cd4-90c03a5e3a24\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-28T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"158b428f-05da-4774-a034-168d2f461142\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"9ea733d1-b594-413b-b73e-07498b5936fd\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"c5218e5d-59cf-45de-9996-9f42e1ff7594\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-02T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"fd36b689-a95b-4c78-b789-4596296cd44a\",\r\n
+        \     \"Progress\": 20500,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"a94781a8-9c2f-4fa9-9f61-58b1a31bd09f\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-24T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"3234a39e-bfd8-41ac-ba81-a84fb65cf048\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-22T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"46aac2ff-6982-49a4-a1b2-0476e8a1ed9e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d0dafe47-52c0-423c-ae44-1cc15ebd60c8\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"afaa0c4c-3982-4f27-a08d-8887b1a13540\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-11T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"dce13c57-7637-4c09-bdd4-ea12190a4ead\",\r\n
+        \     \"Progress\": 10300,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"b909e8c9-c58a-4f33-a045-310afd3a3320\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-26T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"bc568ded-a051-4b90-9bd5-4cbee99309fc\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"bd8bff6a-4762-4b5f-b580-bf5a076886b0\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-05-10T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"bd2103f1-6901-4e14-872d-d6ee39296bc7\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-15T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4d1ddb56-0460-4560-b19b-0dd6efa4995c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-29T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"c131acd2-038c-4b31-a343-ddacdbe7165e\",\r\n
+        \     \"Progress\": 1000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"dc70330b-2fc2-4b4c-9e30-70825ca5ccd3\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2017-11-02T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"6bea2a55-802a-40ab-b0e4-326dee2eda10\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-02-23T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4c0a3b88-47e8-4de4-8533-25d7a06803b2\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-03-26T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8c8802df-a0e1-4f5f-a231-d7c22610b574\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"080e5623-7141-4ccb-94e4-69d1cdc5e345\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-20T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"18229156-bcc0-4e86-a0ac-1e62110bc588\",\r\n
+        \     \"Progress\": 1144,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"83e6189f-d64b-4458-8369-9877a679b57f\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-11-17T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"178e94ba-d537-4207-ae72-7c6e4e79f762\",\r\n
+        \     \"Progress\": 61600,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"1f6d80cf-d8df-4e3f-83ec-b5445cfbfee2\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-21T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"4fe212c6-fd43-4c86-ae8b-46123dc21ce3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-27T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"cb115fc0-6fd4-4706-a833-ef47098fae75\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-17T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b062c1b7-bd06-42aa-9f12-4d600b9a0490\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-09T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"909a8064-f495-4210-93aa-b8f10061e90d\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-02-05T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"ee956fad-0202-4da5-8f73-df600d3d5920\",\r\n
+        \     \"Progress\": 41000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"bb4db309-3db0-4cad-95f6-49b8a43bf560\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-05-31T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"9fc329f3-884f-40f8-b9ad-c8c9d33f965c\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-01T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4cf46d6d-c8ff-4019-b100-afe21cf26b89\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"0b889901-7256-4c5d-a626-cad12b8c3ade\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-18T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"d8ebfde1-d380-437f-93d5-bf32559e36b6\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-28T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"5d5ebdaa-b04b-4f75-bd06-d39f42ed5fee\",\r\n
+        \     \"Progress\": 43,\r\n      \"CompletedLevels\": [\r\n        {\r\n          \"Id\":
+        \"18ddbc0d-b7e9-479d-989a-0bd17edaf066\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2020-03-27T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"6eb5140f-7243-4b5d-91da-1b24dbdc3324\",\r\n
+        \     \"Progress\": 961,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"e1249e00-a2b0-4dcd-88aa-840476b9897a\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2020-03-30T00:00:00Z\"\r\n          }\r\n
+        \       }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"b1a5b29e-bf59-4241-a1af-7eb6f495b944\",\r\n
+        \     \"Progress\": 476,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"f749450d-85c2-46a9-b02f-d7b44ee524ff\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-11-14T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"30dc5593-4b9a-4d3b-ad8a-f081a487e873\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-12-18T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"ea042937-9bcc-4d03-8b3d-01687130ba88\",\r\n
+        \     \"Progress\": 1000,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"b4ac2e07-ee71-4bf9-814c-d6dda5bc0ade\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-03-20T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"ab76f59c-f510-4ead-bc6d-e81450824385\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-04-27T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"2222ab8d-ffc1-4c47-bc23-bc4626cf1900\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-01T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"df9f5e4e-81ca-4c44-b396-5447189488e0\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-07-29T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"979f68de-6802-48a8-bca2-186865c5720e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-11-17T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"3176f920-e7e3-4792-9ded-312be3baf09b\",\r\n
+        \     \"Progress\": 100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"45e561e5-a6f4-46ec-83cd-2bd3c83bd229\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2018-05-07T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"fe67645a-c58e-4089-8a70-a99b305d1c05\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2018-08-20T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"a7571278-03cc-4c79-b7a3-be878b4ec258\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-16T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"4289b64b-951e-47a1-b1b3-53f95d0c44d3\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-30T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"34176efa-6deb-4cb7-96f3-8b620f947fee\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-07-04T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"633434a3-efb9-474f-a44b-74fbcf5b4afc\",\r\n
+        \     \"Progress\": 5100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"232efe58-6af4-4bc1-b7f3-bdf9f3a1cb66\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-06-12T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"cbe2bfc8-2a7a-4b3e-b3ff-cacc5f947cf0\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-09-07T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"8cb11e1a-5d10-4658-bcd5-55ef0e2eeb60\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-25T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b340508d-1e18-4474-a6eb-cb7d3fd0ec4e\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-06-04T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"75f41269-48c8-4b8a-9c07-606d11f6bd97\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2021-07-01T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"1eb6ee9e-232d-48ad-95f9-9caeae6488f5\",\r\n
+        \     \"Progress\": 215,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n
+        \     \"Id\": \"6871b535-751b-40e8-9b14-580d9cb7466f\",\r\n      \"Progress\":
+        42,\r\n      \"CompletedLevels\": []\r\n    },\r\n    {\r\n      \"Id\": \"0cfd1a59-7e1a-422b-be1e-81d506b763e4\",\r\n
+        \     \"Progress\": 5100,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"f412d99a-7a10-417f-baac-7f6f334ff8f6\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2018-06-28T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"45edf28f-04f2-431b-8736-ac6e159b106b\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-06-08T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"bc085f10-05ce-432a-a643-008d198b31fb\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-08-05T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"b378eb9b-f90c-42df-bbb6-fd49a23076bf\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2019-10-15T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"458f855c-1a86-4fb3-b695-27391f3a9ca5\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-03-25T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\": \"681f2ca8-a4c4-41d7-aff4-8390cb163f55\",\r\n
+        \     \"Progress\": 1578,\r\n      \"CompletedLevels\": [\r\n        {\r\n
+        \         \"Id\": \"24561c76-a477-4d78-bd39-4a1caa8140d3\",\r\n          \"CompletedDateUtc\":
+        {\r\n            \"ISO8601Date\": \"2019-07-29T00:00:00Z\"\r\n          }\r\n
+        \       },\r\n        {\r\n          \"Id\": \"6c6bd6ca-3c9b-4be2-ac63-efb4ab0a0b05\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-01-06T00:00:00Z\"\r\n
+        \         }\r\n        },\r\n        {\r\n          \"Id\": \"e72cb74d-e321-4e77-aee2-86826025f681\",\r\n
+        \         \"CompletedDateUtc\": {\r\n            \"ISO8601Date\": \"2020-07-14T00:00:00Z\"\r\n
+        \         }\r\n        }\r\n      ]\r\n    }\r\n  ],\r\n  \"MetaCommendations\":
+        [\r\n    {\r\n      \"Id\": \"0a271639-6401-4c7a-a966-75519d5126f2\",\r\n
+        \     \"MetRequirements\": [\r\n        {\r\n          \"Data1\": 353434909,\r\n
+        \         \"Data2\": 14662,\r\n          \"Data3\": 19787,\r\n          \"Data4\":
+        9766314059559057062\r\n        },\r\n        {\r\n          \"Data1\": 572697485,\r\n
+        \         \"Data2\": 65473,\r\n          \"Data3\": 19527,\r\n          \"Data4\":
+        7264637720208316\r\n        },\r\n        {\r\n          \"Data1\": 2157793597,\r\n
+        \         \"Data2\": 11527,\r\n          \"Data3\": 17768,\r\n          \"Data4\":
+        1232158355269147806\r\n        },\r\n        {\r\n          \"Data1\": 1190826866,\r\n
+        \         \"Data2\": 24333,\r\n          \"Data3\": 20129,\r\n          \"Data4\":
+        1274966401532382082\r\n        },\r\n        {\r\n          \"Data1\": 2671564981,\r\n
+        \         \"Data2\": 25553,\r\n          \"Data3\": 18414,\r\n          \"Data4\":
+        5167063374304805547\r\n        },\r\n        {\r\n          \"Data1\": 3554637565,\r\n
+        \         \"Data2\": 62575,\r\n          \"Data3\": 17186,\r\n          \"Data4\":
+        12360580435984822444\r\n        },\r\n        {\r\n          \"Data1\": 2868946159,\r\n
+        \         \"Data2\": 19210,\r\n          \"Data3\": 17115,\r\n          \"Data4\":
+        13263475207092933259\r\n        },\r\n        {\r\n          \"Data1\": 1523185435,\r\n
+        \         \"Data2\": 33254,\r\n          \"Data3\": 19998,\r\n          \"Data4\":
+        10061885163896188554\r\n        },\r\n        {\r\n          \"Data1\": 3811133733,\r\n
+        \         \"Data2\": 27335,\r\n          \"Data3\": 17382,\r\n          \"Data4\":
+        13586319379748055945\r\n        },\r\n        {\r\n          \"Data1\": 1568720936,\r\n
+        \         \"Data2\": 65494,\r\n          \"Data3\": 19074,\r\n          \"Data4\":
+        9577441764272446650\r\n        },\r\n        {\r\n          \"Data1\": 1107808473,\r\n
+        \         \"Data2\": 53668,\r\n          \"Data3\": 19432,\r\n          \"Data4\":
+        1682005550108670630\r\n        },\r\n        {\r\n          \"Data1\": 492652410,\r\n
+        \         \"Data2\": 29661,\r\n          \"Data3\": 19329,\r\n          \"Data4\":
+        12442540510111984302\r\n        },\r\n        {\r\n          \"Data1\": 2130968886,\r\n
+        \         \"Data2\": 25274,\r\n          \"Data3\": 18338,\r\n          \"Data4\":
+        4207221567351174537\r\n        },\r\n        {\r\n          \"Data1\": 3042287463,\r\n
+        \         \"Data2\": 27678,\r\n          \"Data3\": 17836,\r\n          \"Data4\":
+        5164919988181690787\r\n        },\r\n        {\r\n          \"Data1\": 3991902247,\r\n
+        \         \"Data2\": 51223,\r\n          \"Data3\": 16864,\r\n          \"Data4\":
+        12041880576064744890\r\n        },\r\n        {\r\n          \"Data1\": 1185596159,\r\n
+        \         \"Data2\": 27010,\r\n          \"Data3\": 18852,\r\n          \"Data4\":
+        11451987447257543329\r\n        },\r\n        {\r\n          \"Data1\": 361448079,\r\n
+        \         \"Data2\": 1498,\r\n          \"Data3\": 18292,\r\n          \"Data4\":
+        4760663451151774880\r\n        },\r\n        {\r\n          \"Data1\": 4275954340,\r\n
+        \         \"Data2\": 31178,\r\n          \"Data3\": 18545,\r\n          \"Data4\":
+        6512955912540304027\r\n        },\r\n        {\r\n          \"Data1\": 2576022791,\r\n
+        \         \"Data2\": 63939,\r\n          \"Data3\": 19528,\r\n          \"Data4\":
+        8922856363314063235\r\n        },\r\n        {\r\n          \"Data1\": 602968569,\r\n
+        \         \"Data2\": 20675,\r\n          \"Data3\": 16887,\r\n          \"Data4\":
+        5115461684657862033\r\n        },\r\n        {\r\n          \"Data1\": 3406913472,\r\n
+        \         \"Data2\": 28628,\r\n          \"Data3\": 18182,\r\n          \"Data4\":
+        8479872418409558952\r\n        },\r\n        {\r\n          \"Data1\": 3240169389,\r\n
+        \         \"Data2\": 64149,\r\n          \"Data3\": 18727,\r\n          \"Data4\":
+        15422595838897095355\r\n        },\r\n        {\r\n          \"Data1\": 448194720,\r\n
+        \         \"Data2\": 65507,\r\n          \"Data3\": 19434,\r\n          \"Data4\":
+        17931940077226776236\r\n        },\r\n        {\r\n          \"Data1\": 2528025197,\r\n
+        \         \"Data2\": 26656,\r\n          \"Data3\": 17977,\r\n          \"Data4\":
+        7789689159233172628\r\n        },\r\n        {\r\n          \"Data1\": 2683994336,\r\n
+        \         \"Data2\": 59197,\r\n          \"Data3\": 18038,\r\n          \"Data4\":
+        7118405692105066368\r\n        },\r\n        {\r\n          \"Data1\": 1420943563,\r\n
+        \         \"Data2\": 18524,\r\n          \"Data3\": 20328,\r\n          \"Data4\":
+        6244405490366053817\r\n        },\r\n        {\r\n          \"Data1\": 3439905886,\r\n
+        \         \"Data2\": 35637,\r\n          \"Data3\": 19848,\r\n          \"Data4\":
+        2503454015107982763\r\n        },\r\n        {\r\n          \"Data1\": 2376095838,\r\n
+        \         \"Data2\": 41834,\r\n          \"Data3\": 16549,\r\n          \"Data4\":
+        16782243416847017402\r\n        },\r\n        {\r\n          \"Data1\": 1214308434,\r\n
+        \         \"Data2\": 47671,\r\n          \"Data3\": 16894,\r\n          \"Data4\":
+        1519545514104048818\r\n        }\r\n      ]\r\n    },\r\n    {\r\n      \"Id\":
+        \"7541e38a-5ffa-45e0-b551-cd00c428ca39\",\r\n      \"MetRequirements\": [\r\n
+        \       {\r\n          \"Data1\": 200606282,\r\n          \"Data2\": 16920,\r\n
+        \         \"Data3\": 18314,\r\n          \"Data4\": 4001038354584897189\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2543806686,\r\n          \"Data2\":
+        26626,\r\n          \"Data3\": 18600,\r\n          \"Data4\": 1041111503204819644\r\n
+        \       },\r\n        {\r\n          \"Data1\": 552437933,\r\n          \"Data2\":
+        40324,\r\n          \"Data3\": 18260,\r\n          \"Data4\": 7821335142013254322\r\n
+        \       },\r\n        {\r\n          \"Data1\": 1104290990,\r\n          \"Data2\":
+        28289,\r\n          \"Data3\": 17358,\r\n          \"Data4\": 7430589320497398951\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2947157068,\r\n          \"Data2\":
+        14722,\r\n          \"Data3\": 20263,\r\n          \"Data4\": 4626781976048209312\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2426044516,\r\n          \"Data2\":
+        62613,\r\n          \"Data3\": 16912,\r\n          \"Data4\": 1002439048749951635\r\n
+        \       },\r\n        {\r\n          \"Data1\": 3307310685,\r\n          \"Data2\":
+        22991,\r\n          \"Data3\": 17886,\r\n          \"Data4\": 10697737832838960793\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2408947506,\r\n          \"Data2\":
+        24667,\r\n          \"Data3\": 16610,\r\n          \"Data4\": 6108948159719531406\r\n
+        \       },\r\n        {\r\n          \"Data1\": 589227012,\r\n          \"Data2\":
+        42515,\r\n          \"Data3\": 20304,\r\n          \"Data4\": 1624819619079711873\r\n
+        \       },\r\n        {\r\n          \"Data1\": 1354375164,\r\n          \"Data2\":
+        39622,\r\n          \"Data3\": 16414,\r\n          \"Data4\": 5576148991957565568\r\n
+        \       },\r\n        {\r\n          \"Data1\": 689237552,\r\n          \"Data2\":
+        24140,\r\n          \"Data3\": 18749,\r\n          \"Data4\": 13391347732655389583\r\n
+        \       },\r\n        {\r\n          \"Data1\": 711593981,\r\n          \"Data2\":
+        62934,\r\n          \"Data3\": 16641,\r\n          \"Data4\": 18306829544800529295\r\n
+        \       },\r\n        {\r\n          \"Data1\": 1135270115,\r\n          \"Data2\":
+        1096,\r\n          \"Data3\": 17930,\r\n          \"Data4\": 14877034219143281308\r\n
+        \       },\r\n        {\r\n          \"Data1\": 457513449,\r\n          \"Data2\":
+        19151,\r\n          \"Data3\": 18393,\r\n          \"Data4\": 2284044715721746836\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2547570175,\r\n          \"Data2\":
+        48521,\r\n          \"Data3\": 16612,\r\n          \"Data4\": 4983970965211357569\r\n
+        \       },\r\n        {\r\n          \"Data1\": 871878854,\r\n          \"Data2\":
+        58309,\r\n          \"Data3\": 16591,\r\n          \"Data4\": 15165414670066661563\r\n
+        \       },\r\n        {\r\n          \"Data1\": 2350257945,\r\n          \"Data2\":
+        56053,\r\n          \"Data3\": 17377,\r\n          \"Data4\": 14318989603678180747\r\n
+        \       },\r\n        {\r\n          \"Data1\": 3522540657,\r\n          \"Data2\":
+        28631,\r\n          \"Data3\": 17303,\r\n          \"Data4\": 7014571613102583945\r\n
+        \       },\r\n        {\r\n          \"Data1\": 128985239,\r\n          \"Data2\":
+        37593,\r\n          \"Data3\": 18131,\r\n          \"Data4\": 5812232585851990446\r\n
+        \       }\r\n      ]\r\n    }\r\n  ],\r\n  \"LastUpdatedDateUtc\": {\r\n    \"ISO8601Date\":
+        \"0001-01-01T00:00:00Z\"\r\n  }\r\n}"
+  recorded_at: Wed, 04 Aug 2021 21:04:32 GMT
+recorded_with: VCR 6.0.0

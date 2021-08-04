@@ -1,0 +1,137 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5/companies/%20a34823e3-1772-4675-9731-28de0db87df5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Transfer-Encoding:
+      - chunked
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:04:33 GMT
+      Etag:
+      - W/"datetime'2021-07-12T06%3A36%3A43.0633488Z'"
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - 6xZK7QTrS0qzAICBBH3ByQ==
+      Date:
+      - Wed, 04 Aug 2021 21:04:33 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"Id\": \"a34823e3-1772-4675-9731-28de0db87df5\",\r\n  \"Name\":
+        \"Clout\",\r\n  \"Creator\": {\r\n    \"Gamertag\": \"Chopstyx\",\r\n    \"Xuid\":
+        null\r\n  },\r\n  \"PeakMembershipCount\": 38,\r\n  \"SuspendedUntilDate\":
+        {\r\n    \"ISO8601Date\": \"1601-01-01T00:00:00Z\"\r\n  },\r\n  \"Members\":
+        [\r\n    {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Bahndy\",\r\n
+        \       \"Xuid\": null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\":
+        {\r\n        \"ISO8601Date\": \"2019-06-14T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\":
+        {\r\n        \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Eliminaire\",\r\n
+        \       \"Xuid\": null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\":
+        {\r\n        \"ISO8601Date\": \"2019-04-18T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\":
+        {\r\n        \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Onyx JC\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-06-03T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Luciid TW\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-06-07T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"lFerdovvs\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-09-10T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Henderix\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-07-23T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Krith\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-07-30T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Veltel\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-09-08T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Whaifvu\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2020-01-13T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"JGravity\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2020-04-08T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-04-08T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Bcngo\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2020-04-10T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-04-10T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"HypeNox\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2020-05-19T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-05-19T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Grim SJK\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-02-08T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-06-01T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Apollo 9\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2021-01-24T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2021-01-24T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"ByeCai\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2021-01-30T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2021-01-30T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"GunnShyyy\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2021-02-21T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2021-02-21T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Unycrn\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2021-03-07T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2021-03-07T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Server Denied\",\r\n
+        \       \"Xuid\": null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\":
+        {\r\n        \"ISO8601Date\": \"2021-05-10T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\":
+        {\r\n        \"ISO8601Date\": \"2021-05-10T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Czntury\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 0,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2021-06-14T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2021-06-14T00:00:00Z\"\r\n      }\r\n    },\r\n
+        \   {\r\n      \"Player\": {\r\n        \"Gamertag\": \"Perzecute\",\r\n        \"Xuid\":
+        null\r\n      },\r\n      \"Role\": 2,\r\n      \"JoinedDate\": {\r\n        \"ISO8601Date\":
+        \"2019-04-03T00:00:00Z\"\r\n      },\r\n      \"LastModifiedDate\": {\r\n
+        \       \"ISO8601Date\": \"2020-03-23T00:00:00Z\"\r\n      }\r\n    }\r\n
+        \ ],\r\n  \"CreatedDate\": {\r\n    \"ISO8601Date\": \"2017-09-06T00:00:00Z\"\r\n
+        \ },\r\n  \"LastModifiedDate\": {\r\n    \"ISO8601Date\": \"2021-07-12T00:00:00Z\"\r\n
+        \ }\r\n}"
+  recorded_at: Wed, 04 Aug 2021 21:04:33 GMT
+recorded_with: VCR 6.0.0

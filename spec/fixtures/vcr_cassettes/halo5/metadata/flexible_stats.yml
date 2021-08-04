@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/metadata/h5/metadata/flexible-stats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '3907'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:06:04 GMT
+      Vary:
+      - Accept-Encoding
+      X-343-Version:
+      - 2.1.17300.1
+      X-343-Instance:
+      - 9aac05ed7551c296be6407c3403e304e381767127983ffe6f928b81c0310b10b
+      X-343-Activity-Id:
+      - 9f2b49f5-71ef-40cd-a1f4-7efb3b1a2c13
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 04 Aug 2021 21:06:04 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '[{"name":"Kills","type":"Count","id":"ba327946-418c-495d-90c0-89f084bf7447","contentId":"ba327946-418c-495d-90c0-89f084bf7447"},{"name":"Assists","type":"Count","id":"7dcd7306-f905-401a-97f2-345d4b25170a","contentId":"7dcd7306-f905-401a-97f2-345d4b25170a"},{"name":"Deaths","type":"Count","id":"ea38d25f-d887-4bdf-b17b-8e8e649b9a87","contentId":"ea38d25f-d887-4bdf-b17b-8e8e649b9a87"},{"name":"Bases
+        Captured","type":"Count","id":"63783dc0-7c2d-436a-bd5b-22da2f4705d4","contentId":"63783dc0-7c2d-436a-bd5b-22da2f4705d4"},{"name":"Base
+        Defense Kills","type":"Count","id":"dfe11eb0-6064-4cbe-98fe-502be1e03a80","contentId":"dfe11eb0-6064-4cbe-98fe-502be1e03a80"},{"name":"Core
+        Defense Kills","type":"Count","id":"d69d04f8-ef9b-4f2a-bacc-beef99c27e40","contentId":"d69d04f8-ef9b-4f2a-bacc-beef99c27e40"},{"name":"Base
+        Assault Kills","type":"Count","id":"1dcd89da-1051-4ebc-ba89-fc971d0d5414","contentId":"1dcd89da-1051-4ebc-ba89-fc971d0d5414"},{"name":"Core
+        Assault Kills","type":"Count","id":"55c97979-8e18-46ed-8f4c-9ae3fb527432","contentId":"55c97979-8e18-46ed-8f4c-9ae3fb527432"},{"name":"Vehicles
+        Destroyed","type":"Count","id":"759e130c-4ace-460b-bfe4-2cd05a1b974b","contentId":"759e130c-4ace-460b-bfe4-2cd05a1b974b"},{"name":"Marine
+        Kill","type":"Count","id":"f838413e-2bd4-4f21-990a-e9ddcb167d64","contentId":"f838413e-2bd4-4f21-990a-e9ddcb167d64"},{"name":"Core
+        Destruction Victories","type":"Count","id":"eb1c4f47-18b7-45df-a145-a1126048c3d8","contentId":"eb1c4f47-18b7-45df-a145-a1126048c3d8"},{"name":"Defender
+        Wins","type":"Count","id":"6d2104b1-d064-4ed0-9f45-a831875c4014","contentId":"6d2104b1-d064-4ed0-9f45-a831875c4014"},{"name":"Defender
+        Shutouts","type":"Count","id":"c8285c5b-6339-4fae-b2de-559c48eb834d","contentId":"c8285c5b-6339-4fae-b2de-559c48eb834d"},{"name":"Personal
+        Score","type":"Count","id":"d0913791-f9bd-4d81-839d-1f3dfe293729","contentId":"d0913791-f9bd-4d81-839d-1f3dfe293729"},{"name":"Boss
+        Takedowns","type":"Count","id":"65df9735-86e1-48b3-a286-08b1d8af9c81","contentId":"65df9735-86e1-48b3-a286-08b1d8af9c81"},{"name":"Legendary
+        Takedowns","type":"Count","id":"06ba69fe-3208-4a3e-821e-c92cbad89042","contentId":"06ba69fe-3208-4a3e-821e-c92cbad89042"},{"name":"Mythic
+        Takedowns","type":"Count","id":"3cc3c9a3-c9cc-4c42-991a-c7b91085eefb","contentId":"3cc3c9a3-c9cc-4c42-991a-c7b91085eefb"},{"name":"Point
+        Victories","type":"Count","id":"6240aca5-0dbb-44d0-9ce2-3a9e9319113e","contentId":"6240aca5-0dbb-44d0-9ce2-3a9e9319113e"},{"name":"Revived","type":"Count","id":"6751fae0-c17e-423f-9d3a-6446b6e58d15","contentId":"6751fae0-c17e-423f-9d3a-6446b6e58d15"},{"name":"Headshots","type":"Count","id":"3465eba1-608c-47d7-9cb6-ef4c7a55a2dd","contentId":"3465eba1-608c-47d7-9cb6-ef4c7a55a2dd"},{"name":"Flags
+        Captured","type":"Count","id":"7cda10c8-04c4-4916-8d6e-71a426a61de8","contentId":"7cda10c8-04c4-4916-8d6e-71a426a61de8"},{"name":"Flag
+        Carrier Kill","type":"Count","id":"6e1e4e2c-1a57-4f64-a893-f594974b3f1f","contentId":"6e1e4e2c-1a57-4f64-a893-f594974b3f1f"},{"name":"Round
+        Winning Kills","type":"Count","id":"5262f1d7-4273-48c3-8d2f-edfcb36a1617","contentId":"5262f1d7-4273-48c3-8d2f-edfcb36a1617"},{"name":"Kills
+        as Last Man","type":"Count","id":"53ea3e8c-ac2a-4644-b6e2-4ac45e721cca","contentId":"53ea3e8c-ac2a-4644-b6e2-4ac45e721cca"},{"name":"Head-to-Head
+        Round Wins","type":"Count","id":"10d1690e-9820-4d98-a7a6-361173370f40","contentId":"10d1690e-9820-4d98-a7a6-361173370f40"},{"name":"Rounds
+        Won","type":"Count","id":"ded6e97f-575a-4511-833b-62bf5489a2c1","contentId":"ded6e97f-575a-4511-833b-62bf5489a2c1"},{"name":"Flag
+        Carry Time","type":"Duration","id":"a3fd8c22-a921-4662-a92b-1f7e965df8fd","contentId":"a3fd8c22-a921-4662-a92b-1f7e965df8fd"},{"name":"Flag
+        Kills","type":"Count","id":"f12a007b-3f27-45a1-87f5-816b6aca060d","contentId":"f12a007b-3f27-45a1-87f5-816b6aca060d"},{"name":"Flag
+        Capture Assists","type":"Count","id":"f2d6cbeb-fbf6-44d5-b321-9edb8cb2e3bc","contentId":"f2d6cbeb-fbf6-44d5-b321-9edb8cb2e3bc"},{"name":"Player
+        Lifespan","type":"Duration","id":"f1c317ee-1ac4-4089-85e8-a9c536c6cf18","contentId":"f1c317ee-1ac4-4089-85e8-a9c536c6cf18"},{"name":"Stronghold
+        Captured","type":"Count","id":"2b151d0f-cde6-4471-9f1d-d0f8e8644471","contentId":"2b151d0f-cde6-4471-9f1d-d0f8e8644471"},{"name":"Stronghold
+        Secured","type":"Count","id":"f0d50d01-6197-4d0d-a3a5-a86110997e40","contentId":"f0d50d01-6197-4d0d-a3a5-a86110997e40"},{"name":"Stronghold
+        Defense","type":"Count","id":"dcd5ff64-4b49-4020-96d0-88ba3fb28a56","contentId":"dcd5ff64-4b49-4020-96d0-88ba3fb28a56"},{"name":"Total
+        Control","type":"Count","id":"74365be9-d515-4229-9561-bfaac5bab089","contentId":"74365be9-d515-4229-9561-bfaac5bab089"},{"name":"Perfect
+        Kills","type":"Count","id":"780104cb-5b86-4ed9-8fb1-40b919de0766","contentId":"780104cb-5b86-4ed9-8fb1-40b919de0766"},{"name":"Flag
+        Returns","type":"Count","id":"fc7095af-dec5-419f-836d-fdd27836aa65","contentId":"fc7095af-dec5-419f-836d-fdd27836aa65"},{"name":"Flag
+        Grabs","type":"Count","id":"0a719185-4780-4706-b9e6-f679fcbc65d6","contentId":"0a719185-4780-4706-b9e6-f679fcbc65d6"},{"name":"Suicides","type":"Count","id":"a1d97ad4-c1d9-4807-b619-ca3710cc5a8d","contentId":"a1d97ad4-c1d9-4807-b619-ca3710cc5a8d"},{"name":"Players
+        Protected","type":"Count","id":"a5a0d0d5-5c9f-4888-b42a-2c87f8e58336","contentId":"a5a0d0d5-5c9f-4888-b42a-2c87f8e58336"},{"name":"Power
+        Weapon Grabs","type":"Count","id":"71ce2293-23bb-492f-a8c0-46e095b55eb7","contentId":"71ce2293-23bb-492f-a8c0-46e095b55eb7"},{"name":"Score","type":"Count","id":"ba1b0043-3a1e-4894-a04f-f8d889103ec5","contentId":"ba1b0043-3a1e-4894-a04f-f8d889103ec5"},{"name":"Goals","type":"Count","id":"c555730c-5ea6-4cbe-a891-f0d1d2c9d2b1","contentId":"c555730c-5ea6-4cbe-a891-f0d1d2c9d2b1"},{"name":"Goal
+        Offense","type":"Count","id":"186b7b54-6432-4f2d-96d0-ddaad952cc06","contentId":"186b7b54-6432-4f2d-96d0-ddaad952cc06"},{"name":"Goal
+        Defense","type":"Count","id":"bb86322d-b758-494f-95ad-2ce32c7874d1","contentId":"bb86322d-b758-494f-95ad-2ce32c7874d1"},{"name":"Ball
+        Clears","type":"Count","id":"c0235203-f107-4594-aee9-163944a7ab48","contentId":"c0235203-f107-4594-aee9-163944a7ab48"},{"name":"Ball
+        Held Duration","type":"Count","id":"f560e3c8-f17e-457b-a477-cc79bbc60b73","contentId":"f560e3c8-f17e-457b-a477-cc79bbc60b73"},{"name":"Grif
+        Kills","type":"Count","id":"62e6b45f-1987-4ca1-92ac-85e5a02bb154","contentId":"62e6b45f-1987-4ca1-92ac-85e5a02bb154"},{"name":"Kills","type":"Count","id":"7eade0bd-ae40-49f8-a6a4-536e7efdff11","contentId":"7eade0bd-ae40-49f8-a6a4-536e7efdff11"},{"name":"Assists","type":"Count","id":"fba3081f-919b-4c6c-bb3f-dbe49c84d5d5","contentId":"fba3081f-919b-4c6c-bb3f-dbe49c84d5d5"},{"name":"Rounds
+        Survived","type":"Count","id":"f806f7ff-1ad0-457e-b649-b2ab707fff3b","contentId":"f806f7ff-1ad0-457e-b649-b2ab707fff3b"},{"name":"Rounds
+        Complete","type":"Count","id":"a52d165f-b42b-42ef-bb10-d857646ce5be","contentId":"a52d165f-b42b-42ef-bb10-d857646ce5be"},{"name":"Victories","type":"Count","id":"f98a2168-f069-436b-983e-d3a56e812a1b","contentId":"f98a2168-f069-436b-983e-d3a56e812a1b"},{"name":"PvE
+        Kill Bonus R1","type":"Count","id":"99590a20-919a-47b5-9436-95fe021f8e0e","contentId":"99590a20-919a-47b5-9436-95fe021f8e0e"},{"name":"PvE
+        Kill Bonus R2","type":"Count","id":"a64872eb-33d0-49b7-b170-56949f8d1084","contentId":"a64872eb-33d0-49b7-b170-56949f8d1084"},{"name":"PvE
+        Kill Bonus R3","type":"Count","id":"a8a8a9fc-cee9-4436-9b7a-297ef0fc7372","contentId":"a8a8a9fc-cee9-4436-9b7a-297ef0fc7372"},{"name":"PvE
+        Kill Bonus R4","type":"Count","id":"e147230c-b660-4162-9a6d-bfcfb158d91f","contentId":"e147230c-b660-4162-9a6d-bfcfb158d91f"},{"name":"PvE
+        Kill Bonus R5","type":"Count","id":"29abbbf1-bfca-4591-b027-6fff90d7aa78","contentId":"29abbbf1-bfca-4591-b027-6fff90d7aa78"},{"name":"PvE
+        Assist Bonus R1","type":"Count","id":"f183f196-b5a7-456d-85b6-b90afce19762","contentId":"f183f196-b5a7-456d-85b6-b90afce19762"},{"name":"PvE
+        Assist Bonus R2","type":"Count","id":"cc9f8eee-d294-45a0-aad8-e6d1c4c76006","contentId":"cc9f8eee-d294-45a0-aad8-e6d1c4c76006"},{"name":"PvE
+        Assist Bonus R3","type":"Count","id":"5f0bc5da-32a6-48d1-a622-9092f477c4e9","contentId":"5f0bc5da-32a6-48d1-a622-9092f477c4e9"},{"name":"PvE
+        Assist Bonus R4","type":"Count","id":"f77f1ca4-960a-4594-8e32-710fe3116b33","contentId":"f77f1ca4-960a-4594-8e32-710fe3116b33"},{"name":"PvE
+        Assist Bonus R5","type":"Count","id":"190a29be-7db8-4a9e-b58a-ef9d75050091","contentId":"190a29be-7db8-4a9e-b58a-ef9d75050091"},{"name":"PvE
+        Survive Bonus R1","type":"Count","id":"d2cf1668-f754-432d-9591-91e3ee1c504e","contentId":"d2cf1668-f754-432d-9591-91e3ee1c504e"},{"name":"PvE
+        Survive Bonus R2","type":"Count","id":"9f27af29-a111-4c71-8f1e-833c2f1a1811","contentId":"9f27af29-a111-4c71-8f1e-833c2f1a1811"},{"name":"PvE
+        Survive Bonus R3","type":"Count","id":"d6e481e2-f238-43c1-98db-8c3fe0697a23","contentId":"d6e481e2-f238-43c1-98db-8c3fe0697a23"},{"name":"PvE
+        Survive Bonus R4","type":"Count","id":"96c21a75-f574-4479-b079-b081cb4a2675","contentId":"96c21a75-f574-4479-b079-b081cb4a2675"},{"name":"PvE
+        Survive Bonus R5","type":"Count","id":"37fb5ac3-c333-4698-8d09-63b167583cc2","contentId":"37fb5ac3-c333-4698-8d09-63b167583cc2"},{"name":"PvE
+        Speed Bonus R1","type":"Count","id":"aff59bca-b7f4-4a43-b5fb-0cbc2e0c52f5","contentId":"aff59bca-b7f4-4a43-b5fb-0cbc2e0c52f5"},{"name":"PvE
+        Speed Bonus R2","type":"Count","id":"3591233f-f003-47b4-9089-25fb6dde0018","contentId":"3591233f-f003-47b4-9089-25fb6dde0018"},{"name":"PvE
+        Speed Bonus R3","type":"Count","id":"da4db7e6-8992-4077-9aff-b550c85564b7","contentId":"da4db7e6-8992-4077-9aff-b550c85564b7"},{"name":"PvE
+        Speed Bonus R4","type":"Count","id":"5d2f67e7-b85f-43a4-bf2c-11bc008e1a6a","contentId":"5d2f67e7-b85f-43a4-bf2c-11bc008e1a6a"},{"name":"PvE
+        Speed Bonus R5","type":"Count","id":"2d4a3985-40a8-48ea-a218-a46cb94d5832","contentId":"2d4a3985-40a8-48ea-a218-a46cb94d5832"},{"name":"Infections","type":"Count","id":"4d756df8-b961-4391-bb9c-9cd6c483c66e","contentId":"4d756df8-b961-4391-bb9c-9cd6c483c66e"},{"name":"Survival
+        Kills","type":"Count","id":"9c948c31-a141-41ff-8641-4ee303a2f9d9","contentId":"9c948c31-a141-41ff-8641-4ee303a2f9d9"},{"name":"Time
+        Survived","type":"Count","id":"92dc4d2d-abab-49c0-bb68-ab203f6906e3","contentId":"92dc4d2d-abab-49c0-bb68-ab203f6906e3"},{"name":"Alpha
+        Infections","type":"Count","id":"ac2de671-1c13-49e5-9d7d-90dff977b0eb","contentId":"ac2de671-1c13-49e5-9d7d-90dff977b0eb"},{"name":"Last
+        Stand Kills","type":"Count","id":"aaf0d653-f7fe-42cc-bf0e-0ad2c78feb5f","contentId":"aaf0d653-f7fe-42cc-bf0e-0ad2c78feb5f"},{"name":"Rounds
+        Survived","type":"Count","id":"af99ba4c-1dac-4163-afdb-f0ddc9a7238e","contentId":"af99ba4c-1dac-4163-afdb-f0ddc9a7238e"},{"name":"Oddball
+        Kills","type":"Count","id":"9343b0d8-c480-4476-9fbf-98951b9b88e7","contentId":"9343b0d8-c480-4476-9fbf-98951b9b88e7"},{"name":"Carrier
+        Kills","type":"Count","id":"f8b0be40-9ac0-49f0-9eef-0b06ee5facf8","contentId":"f8b0be40-9ac0-49f0-9eef-0b06ee5facf8"},{"name":"Carriers
+        Protected","type":"Count","id":"c2186135-aaf2-4f6a-84f4-e0d2e09545be","contentId":"c2186135-aaf2-4f6a-84f4-e0d2e09545be"},{"name":"Oddball
+        Time","type":"Count","id":"49cf123a-e34c-42c9-a440-2232333e5515","contentId":"49cf123a-e34c-42c9-a440-2232333e5515"}]'
+  recorded_at: Wed, 04 Aug 2021 21:06:04 GMT
+recorded_with: VCR 6.0.0

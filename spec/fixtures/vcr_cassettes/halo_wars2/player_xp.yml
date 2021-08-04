@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/hw2/xp?players=xarly%20bovi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '464'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 17:40:27 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - f5nJlT8qGk+AQhxMSR2g4A==
+      Date:
+      - Wed, 04 Aug 2021 17:40:27 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Results":[{"Id":"xarly bovi","ResultCode":0,"Result":{"MultiplayerXp":0,"CampaignXp":2800,"TotalXp":2800,"LastUpdatedDateUtc":{"ISO8601Date":"2017-11-19T16:33:27.763Z"},"SpartanRankId":"568c5596-5886-49d6-b29a-d586d4d7eba7"}}],"Links":{"Self":{"AuthorityId":"spartanstats","Path":"/hw2/xp","QueryString":"?players=xarly%20bovi","RetryPolicyId":"","TopicName":"","AcknowledgementTypeId":0,"AuthenticationLifetimeExtensionSupported":false,"ClearanceAware":false}}}'
+  recorded_at: Wed, 04 Aug 2021 17:40:27 GMT
+recorded_with: VCR 6.0.0

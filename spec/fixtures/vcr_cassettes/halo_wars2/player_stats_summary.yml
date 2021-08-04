@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/hw2/players/xarly%20bovi/stats
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2079'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 17:41:47 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - r7iXZ64sKkywDseqa1Y/ZQ==
+      Date:
+      - Wed, 04 Aug 2021 17:41:46 GMT
+    body:
+      encoding: UTF-8
+      string: "{\r\n  \"CustomSummary\": {\r\n    \"SkirmishStats\": {\r\n      \"SinglePlayerStats\":
+        {\r\n        \"PlaylistId\": null,\r\n        \"PlaylistClassification\":
+        null,\r\n        \"HighestCsr\": null,\r\n        \"TotalTimePlayed\": \"\",\r\n
+        \       \"TotalMatchesStarted\": 0,\r\n        \"TotalMatchesCompleted\":
+        0,\r\n        \"TotalMatchesWon\": 0,\r\n        \"TotalMatchesLost\": 0,\r\n
+        \       \"TotalPointCaptures\": 0,\r\n        \"TotalUnitsBuilt\": 0,\r\n
+        \       \"TotalUnitsLost\": 0,\r\n        \"TotalUnitsDestroyed\": 0,\r\n
+        \       \"TotalCardPlays\": 0,\r\n        \"HighestWaveCompleted\": 0,\r\n
+        \       \"LeaderStats\": {},\r\n        \"GameMode\": null,\r\n        \"HighestObjectiveScoreByTeamSize\":
+        {}\r\n      },\r\n      \"MultiplayerStats\": {\r\n        \"PlaylistId\":
+        null,\r\n        \"PlaylistClassification\": null,\r\n        \"HighestCsr\":
+        null,\r\n        \"TotalTimePlayed\": \"\",\r\n        \"TotalMatchesStarted\":
+        0,\r\n        \"TotalMatchesCompleted\": 0,\r\n        \"TotalMatchesWon\":
+        0,\r\n        \"TotalMatchesLost\": 0,\r\n        \"TotalPointCaptures\":
+        0,\r\n        \"TotalUnitsBuilt\": 0,\r\n        \"TotalUnitsLost\": 0,\r\n
+        \       \"TotalUnitsDestroyed\": 0,\r\n        \"TotalCardPlays\": 0,\r\n
+        \       \"HighestWaveCompleted\": 0,\r\n        \"LeaderStats\": {},\r\n        \"GameMode\":
+        null,\r\n        \"HighestObjectiveScoreByTeamSize\": {}\r\n      },\r\n      \"SinglePlayerModeStats\":
+        [],\r\n      \"MultiplayerModeStats\": []\r\n    },\r\n    \"CustomStats\":
+        {\r\n      \"PlaylistId\": null,\r\n      \"PlaylistClassification\": null,\r\n
+        \     \"HighestCsr\": null,\r\n      \"TotalTimePlayed\": \"\",\r\n      \"TotalMatchesStarted\":
+        0,\r\n      \"TotalMatchesCompleted\": 0,\r\n      \"TotalMatchesWon\": 0,\r\n
+        \     \"TotalMatchesLost\": 0,\r\n      \"TotalPointCaptures\": 0,\r\n      \"TotalUnitsBuilt\":
+        0,\r\n      \"TotalUnitsLost\": 0,\r\n      \"TotalUnitsDestroyed\": 0,\r\n
+        \     \"TotalCardPlays\": 0,\r\n      \"HighestWaveCompleted\": 0,\r\n      \"LeaderStats\":
+        {},\r\n      \"GameMode\": null,\r\n      \"HighestObjectiveScoreByTeamSize\":
+        {}\r\n    },\r\n    \"CustomModeStats\": []\r\n  },\r\n  \"MatchmakingSummary\":
+        {\r\n    \"SocialPlaylistStats\": [],\r\n    \"RankedPlaylistStats\": [],\r\n
+        \   \"SocialModeStats\": [],\r\n    \"RankedModeStats\": []\r\n  }\r\n}"
+  recorded_at: Wed, 04 Aug 2021 17:41:47 GMT
+recorded_with: VCR 6.0.0

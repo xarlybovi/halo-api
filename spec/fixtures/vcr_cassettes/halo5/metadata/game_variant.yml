@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/metadata/h5/metadata/game-variants/1571fdac-e0b4-4ebc-a73a-6e13001b71d3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '218'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:06:06 GMT
+      Vary:
+      - Accept-Encoding
+      X-343-Version:
+      - 2.1.17300.1
+      X-343-Instance:
+      - 9ef604549cfd6069a887e3a6d5ce518f022d891557c6a560d3667bb84cc23ede
+      X-343-Activity-Id:
+      - 591b6f13-5014-49de-8227-303e96d970c1
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 04 Aug 2021 21:06:06 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":null,"description":null,"gameBaseVariantId":null,"iconUrl":null,"id":"1571fdac-e0b4-4ebc-a73a-6e13001b71d3","contentId":"1571fdac-e0b4-4ebc-a73a-6e13001b71d3"}'
+  recorded_at: Wed, 04 Aug 2021 21:06:06 GMT
+recorded_with: VCR 6.0.0

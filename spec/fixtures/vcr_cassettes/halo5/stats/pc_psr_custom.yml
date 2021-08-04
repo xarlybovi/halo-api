@@ -1,0 +1,50 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5pc/servicerecords/custom?players=xarly%20bovi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '1391'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:13:01 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - sky+kM/NRUunnIs/kJK7/g==
+      Date:
+      - Wed, 04 Aug 2021 21:13:01 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Results":[{"Id":"xarly bovi","ResultCode":0,"Result":{"CustomStats":{"CustomGameBaseVariantStats":[],"TopGameBaseVariants":[],"TotalKills":0,"TotalHeadshots":0,"TotalWeaponDamage":0.0,"TotalShotsFired":0,"TotalShotsLanded":0,"WeaponWithMostKills":{"WeaponId":{"StockId":0,"Attachments":[]},"TotalShotsFired":0,"TotalShotsLanded":0,"TotalHeadshots":0,"TotalKills":0,"TotalDamageDealt":0.0,"TotalPossessionTime":""},"TotalMeleeKills":0,"TotalMeleeDamage":0.0,"TotalAssassinations":0,"TotalGroundPoundKills":0,"TotalGroundPoundDamage":0.0,"TotalShoulderBashKills":0,"TotalShoulderBashDamage":0.0,"TotalGrenadeDamage":0.0,"TotalPowerWeaponKills":0,"TotalPowerWeaponDamage":0.0,"TotalPowerWeaponGrabs":0,"TotalPowerWeaponPossessionTime":"","TotalDeaths":0,"TotalAssists":0,"TotalGamesCompleted":0,"TotalGamesWon":0,"TotalGamesLost":0,"TotalGamesTied":0,"TotalTimePlayed":"","TotalGrenadeKills":0,"MedalAwards":[],"DestroyedEnemyVehicles":[],"EnemyKills":[],"WeaponStats":[],"Impulses":[],"TotalSpartanKills":0,"FastestMatchWin":null},"PlayerId":{"Gamertag":"Xarly
+        Bovi","Xuid":null},"SpartanRank":1,"Xp":0}}],"Links":{"Self":{"AuthorityId":"spartanstats","Path":"/h5pc/servicerecords/custom","QueryString":"?players=xarly%20bovi&include-xuids=false&view=full","RetryPolicyId":"","TopicName":"","AcknowledgementTypeId":0,"AuthenticationLifetimeExtensionSupported":false,"ClearanceAware":false}}}'
+  recorded_at: Wed, 04 Aug 2021 21:13:01 GMT
+recorded_with: VCR 6.0.0

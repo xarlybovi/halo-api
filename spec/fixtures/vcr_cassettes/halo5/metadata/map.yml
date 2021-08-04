@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/metadata/h5/metadata/map-variants/c93d708f-f206-11e4-a815-24be05e24f7e
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '212'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:06:08 GMT
+      Vary:
+      - Accept-Encoding
+      X-343-Version:
+      - 2.1.17300.1
+      X-343-Instance:
+      - 3855f050585fe0aa1a14255a72e606c56126587b545d62ff013e266d7c95edf7
+      X-343-Activity-Id:
+      - 942b077a-8bf1-4bbc-9220-7c65499623b2
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Wed, 04 Aug 2021 21:06:08 GMT
+    body:
+      encoding: ASCII-8BIT
+      string: '{"name":null,"description":null,"mapImageUrl":null,"mapId":null,"id":"c93d708f-f206-11e4-a815-24be05e24f7e","contentId":"c93d708f-f206-11e4-a815-24be05e24f7e"}'
+  recorded_at: Wed, 04 Aug 2021 21:06:08 GMT
+recorded_with: VCR 6.0.0
