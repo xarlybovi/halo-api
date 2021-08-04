@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # This gem will work with 2.6.8 or greater
-  spec.required_ruby_version = '>= 2.6.8'
+  spec.required_ruby_version = '>= 2.5.8'
 
   spec.add_runtime_dependency 'addressable', '~> 2.8', '>= 2.8.0'
   spec.add_runtime_dependency 'httparty', '~> 0.18.1'
