@@ -57,8 +57,8 @@ module Halo
         get_data("#{@endpoint}/medals", options)
       end
 
-      def playlist(options = {})
-        get_data("#{@endpoint}/playlist", options)
+      def playlists(options = {})
+        get_data("#{@endpoint}/playlists", options)
       end
 
       def requisition(id, options = {})
