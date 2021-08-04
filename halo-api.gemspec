@@ -28,7 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'redis', '~> 4.3'
 
   spec.add_development_dependency 'bundler', '~> 2.2.24'
-  spec.add_development_dependency 'codecov', '~> 0.4.3'
+  spec.add_development_dependency 'codecov', '~> 0.5.2'
   spec.add_development_dependency 'dotenv', '~> 2.2', '>= 2.2.1'
   spec.add_development_dependency 'pry', '~> 0.11'
   spec.add_development_dependency 'rake', '~> 13.0.6'
