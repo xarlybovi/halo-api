@@ -1,7 +1,7 @@
 # HaloAPI
 [![Gem Version](https://badge.fury.io/rb/halo-api.svg)](https://badge.fury.io/rb/halo-api)
 [![Code Climate](https://codeclimate.com/github/xarlybovi/halo-api.png)](https://codeclimate.com/github/xarlybovi/halo-api)
-[![Actions Status](https://github.com/xarlybovi/halo-api/workflows/Main/badge.svg)](https://github.com/xarlybovi/halo-api/actions)
+[![Actions Status](https://github.com/xarlybovi/halo-api/workflows/CI/badge.svg)](https://github.com/xarlybovi/halo-api/actions)
 [![codecov](https://codecov.io/gh/xarlybovi/halo-api/branch/master/graph/badge.svg?token=NJLMA4MDU1)](https://codecov.io/gh/xarlybovi/halo-api)
 
 Wrapper for Halo Public API (BETA). https://developer.haloapi.com
