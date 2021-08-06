@@ -1,9 +1,8 @@
 # HaloAPI
 [![Gem Version](https://badge.fury.io/rb/halo-api.svg)](https://badge.fury.io/rb/halo-api)
-[![Dependency Status](https://gemnasium.com/badges/github.com/xarlybovi/halo-api.svg)](https://gemnasium.com/github.com/xarlybovi/halo-api)
 [![Code Climate](https://codeclimate.com/github/xarlybovi/halo-api.png)](https://codeclimate.com/github/xarlybovi/halo-api)
-[![Build Status](https://travis-ci.org/xarlybovi/halo-api.svg?branch=master)](https://travis-ci.org/xarlybovi/halo-api)
-[![Coverage Status](https://coveralls.io/repos/github/xarlybovi/halo-api/badge.svg?branch=master)](https://coveralls.io/github/xarlybovi/halo-api?branch=master)
+[![Actions Status](https://github.com/xarlybovi/halo-api/workflows/CI/badge.svg)](https://github.com/xarlybovi/halo-api/actions)
+[![codecov](https://codecov.io/gh/xarlybovi/halo-api/branch/master/graph/badge.svg?token=NJLMA4MDU1)](https://codecov.io/gh/xarlybovi/halo-api)
 
 Wrapper for Halo Public API (BETA). https://developer.haloapi.com
 
@@ -12,7 +11,7 @@ Wrapper for Halo Public API (BETA). https://developer.haloapi.com
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'halo-api'
+gem 'halo-api', '~> 1.0.0'
 ```
 
 And then execute:
@@ -58,7 +57,6 @@ hw2_campaign_levels  = halo_wars2_client.metadata.campaign_levels
 # => Array
 hw2_seasons = halo_wars2_client.metadata.seasons
 # => Array
-
 ````
 
 ## TODO
@@ -70,16 +68,6 @@ hw2_seasons = halo_wars2_client.metadata.seasons
 - [ ] Custom query builder
 - [ ] Paged requests
 - [ ] Documentation
-
-## Contributing
-
-Bug reports and pull requests are welcome!
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
 
 ## License
 

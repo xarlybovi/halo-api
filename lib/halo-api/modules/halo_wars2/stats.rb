@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module HaloWars2
     class Stats < APIResponse
-
       def initialize(options = {})
         @endpoint = '/stats/hw2'
 
@@ -43,7 +44,6 @@ module Halo
       def player_xp(players, options = {})
         get_data("#{@endpoint}/xp", options.merge(players: players))
       end
-
     end
   end
 end

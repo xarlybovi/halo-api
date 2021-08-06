@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module HaloWars2
     class Metadata < APIResponse
-
       def initialize(options = {})
         @endpoint = '/metadata/hw2'
 
@@ -71,7 +72,6 @@ module Halo
       def techs(options = {})
         get_data("#{@endpoint}/techs", options)
       end
-
     end
   end
 end

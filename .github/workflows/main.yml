@@ -1,0 +1,34 @@
+name: CI
+
+on: [ 'push', 'pull_request' ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    services:
+      redis:
+        image: redis
+        ports:
+          - 6379:6379
+
+    strategy:
+      matrix:
+        ruby-version: [ '2.5', '2.6', '2.7', '3.0' ]
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby-version }}
+          bundler-cache: true
+
+      - name: Run tests
+        env:
+          HALO_API_KEY: ${{ secrets.HALO_API_KEY }}
+          HALO_REGION: ${{ secrets.HALO_REGION }}
+          HALO_REDIS: ${{ secrets.HALO_REDIS }}
+          HALO_TTL: ${{ secrets.HALO_TTL }}
+        run: bundle exec rake

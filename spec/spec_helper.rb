@@ -1,13 +1,33 @@
+# frozen_string_literal: true
+
+require 'simplecov'
 require 'bundler/setup'
-require 'coveralls'
 require 'dotenv'
 require 'pry'
+require 'vcr'
 
-require 'halo-api'
+SimpleCov.start do
+  track_files '{lib}/**/*.rb'
+  add_filter 'spec/'
+  add_filter 'lib/halo-api/version'
+end
 
-Coveralls.wear!
+if ENV['CI'] == 'true'
+  require 'codecov'
+  SimpleCov.formatter = SimpleCov::Formatter::Codecov
+end
+
+VCR.configure do |config|
+  config.cassette_library_dir = 'spec/fixtures/vcr_cassettes'
+  config.hook_into :webmock
+  config.ignore_localhost = true
+  config.configure_rspec_metadata!
+  config.filter_sensitive_data('<HALO_API_KEY>') { ENV['HALO_API_KEY'] }
+end
 
 Dotenv.load('.env')
+
+require 'halo-api'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

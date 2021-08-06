@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module Halo5
     class Metadata < APIResponse
-
       def initialize(options = {})
         @endpoint = '/metadata/h5/metadata'
 
@@ -14,6 +15,10 @@ module Halo
 
       def commendations(options = {})
         get_data("#{@endpoint}/commendations", options)
+      end
+
+      def company_commendations(options = {})
+        get_data("#{@endpoint}/company-commendations", options)
       end
 
       def csr_designations(options = {})
@@ -52,8 +57,8 @@ module Halo
         get_data("#{@endpoint}/medals", options)
       end
 
-      def playlist(options = {})
-        get_data("#{@endpoint}/playlist", options)
+      def playlists(options = {})
+        get_data("#{@endpoint}/playlists", options)
       end
 
       def requisition(id, options = {})
@@ -87,7 +92,6 @@ module Halo
       def weapons(options = {})
         get_data("#{@endpoint}/weapons", options)
       end
-
     end
   end
 end

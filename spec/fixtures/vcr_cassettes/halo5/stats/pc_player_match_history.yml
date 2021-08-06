@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5pc/players/xarly%20bovi/matches
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '344'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:13:00 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - qVXjBlo41E+rlVjHp+ZRhw==
+      Date:
+      - Wed, 04 Aug 2021 21:13:00 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Start":0,"Count":25,"ResultCount":0,"Results":[],"Links":{"Self":{"AuthorityId":"spartanstats","Path":"/h5pc/players/xarly%20bovi/matches","QueryString":"?include-xuids=false&view=full&include-ratings=false","RetryPolicyId":"","TopicName":"","AcknowledgementTypeId":0,"AuthenticationLifetimeExtensionSupported":false,"ClearanceAware":false}}}'
+  recorded_at: Wed, 04 Aug 2021 21:13:00 GMT
+recorded_with: VCR 6.0.0

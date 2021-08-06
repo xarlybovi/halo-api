@@ -1,0 +1,36 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/ugc/h5/players/xarly%20bovi/gamevariants
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Length:
+      - '111'
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 04 Aug 2021 21:08:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{ "statusCode": 500, "message": "Internal server error", "activityId":
+        "2cc9aa3b-76f2-47fb-836a-f63feb157763" }'
+  recorded_at: Wed, 04 Aug 2021 21:08:54 GMT
+recorded_with: VCR 6.0.0

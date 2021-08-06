@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/h5pc/custom/matches/dd53912c-5ca3-4167-900a-10a78a7c94b7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Content-Length:
+      - '0'
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - HgiRGobsgEuKkwNIIHx9xg==
+      Date:
+      - Wed, 04 Aug 2021 21:14:09 GMT
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 04 Aug 2021 21:14:10 GMT
+recorded_with: VCR 6.0.0

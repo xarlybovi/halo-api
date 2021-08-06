@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module Halo5
     class Profile < APIResponse
-
       def initialize(options = {})
         @player = options.delete(:player)
         @endpoint = "/profile/h5/profiles/#{@player}"

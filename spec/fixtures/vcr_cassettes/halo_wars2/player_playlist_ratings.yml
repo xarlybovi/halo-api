@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.haloapi.com/stats/hw2/playlist/282fc197-7bf1-4865-81ec-a312d07567b6/rating?players=xarly%20bovi
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Ocp-Apim-Subscription-Key:
+      - "<HALO_API_KEY>"
+      Accept-Language:
+      - en
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-store, must-revalidate, no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '429'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - Wed, 04 Aug 2021 21:17:42 GMT
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      Strict-Transport-Security:
+      - max-age=157680000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      E2eactivity:
+      - D+jv+3apvkiBgpFjIolj0A==
+      Date:
+      - Wed, 04 Aug 2021 21:17:41 GMT
+    body:
+      encoding: UTF-8
+      string: '{"Results":[{"Id":"xarly bovi","ResultCode":0,"Result":{"Mmr":{"Rating":0.0,"Variance":1.0,"LastModifiedDate":{"ISO8601Date":""}},"Csr":null}}],"Links":{"Self":{"AuthorityId":"spartanstats","Path":"/hw2/playlist/282fc197-7bf1-4865-81ec-a312d07567b6/rating","QueryString":"?players=xarly%20bovi","RetryPolicyId":"","TopicName":"","AcknowledgementTypeId":0,"AuthenticationLifetimeExtensionSupported":false,"ClearanceAware":false}}}'
+  recorded_at: Wed, 04 Aug 2021 21:17:42 GMT
+recorded_with: VCR 6.0.0

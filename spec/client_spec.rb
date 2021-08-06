@@ -1,7 +1,8 @@
-describe Halo::Client do
+# frozen_string_literal: true
 
+describe Halo::Client do
   describe 'configuration' do
-    before(:each) do
+    before do
       Halo.configure do |config|
         config.api_key = ENV['HALO_API_KEY']
         config.region = ENV['HALO_REGION']
@@ -41,7 +42,7 @@ describe Halo::Client do
   end
 
   describe 'caching' do
-    before(:each) do
+    before do
       Halo.configure do |config|
         config.api_key = ENV['HALO_API_KEY']
         config.redis = ENV['HALO_REDIS']
@@ -51,7 +52,7 @@ describe Halo::Client do
     end
 
     it 'sets caching if redis is specified in the options' do
-      expect(subject.cached?).to be_truthy
+      expect(subject.cached?).to be(true)
     end
 
     it 'default ttl of 30 * 60s' do
@@ -66,6 +67,22 @@ describe Halo::Client do
     it 'instantiates a redis client if redis is in the options' do
       expect(subject.instance_variable_get(:@redis)).to be_a(Redis)
     end
-  end
 
+    it 'check if a request is cached properly' do
+      client = Halo.halo5
+      # First request creates the cache entry
+      response_vcr = VCR.use_cassette('halo5/metadata/campaign_missions') { client.metadata.campaign_missions }
+      # Second request get it from redis cache
+      response_cached = client.metadata.campaign_missions
+
+      # Get the redis cache entry from the redis client
+      redis_cache_entry = client.cache_store[:redis].get('/metadata/h5/metadata/campaign-missions{}en')
+      redis_cache_entry = JSON.parse(redis_cache_entry)
+
+      expect(response_vcr).to eq(response_cached)
+      expect(response_cached).to eq(redis_cache_entry)
+      expect(response_cached).to be_kind_of(Array)
+      expect(response_cached.first).to have_key 'id'
+    end
+  end
 end

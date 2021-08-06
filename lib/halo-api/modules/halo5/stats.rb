@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module Halo5
     class Stats < APIResponse
-
       def initialize(options = {})
         @endpoint = '/stats/h5'
         super(options)
@@ -74,7 +75,6 @@ module Halo
       def pc_psr_custom(players, options = {})
         get_data("#{@endpoint}pc/servicerecords/custom", options.merge(players: players))
       end
-
     end
   end
 end

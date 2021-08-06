@@ -1,7 +1,8 @@
+# frozen_string_literal: true
+
 module Halo
   module Halo5
     class Ugc < APIResponse
-
       def initialize(options = {})
         @player = options.delete(:player)
         @endpoint = "/ugc/h5/players/#{@player}"
@@ -24,7 +25,6 @@ module Halo
       def player_map_variants(options = {})
         get_data("#{@endpoint}/mapvariants", options)
       end
-
     end
   end
 end
