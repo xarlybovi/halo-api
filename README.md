@@ -57,7 +57,6 @@ hw2_campaign_levels  = halo_wars2_client.metadata.campaign_levels
 # => Array
 hw2_seasons = halo_wars2_client.metadata.seasons
 # => Array
-
 ````
 
 ## TODO
@@ -69,16 +68,6 @@ hw2_seasons = halo_wars2_client.metadata.seasons
 - [ ] Custom query builder
 - [ ] Paged requests
 - [ ] Documentation
-
-## Contributing
-
-Bug reports and pull requests are welcome!
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
 
 ## License
 
