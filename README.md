@@ -11,7 +11,7 @@ Wrapper for Halo Public API (BETA). https://developer.haloapi.com
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'halo-api'
+gem 'halo-api', '~> 1.0.0'
 ```
 
 And then execute:
